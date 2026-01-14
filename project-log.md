@@ -1,11 +1,17 @@
 # Project Log: AI Edu Ideas
 
 ## 2026-01-14
+- **Successful JSON Extraction**:
+    - Developed `extract_ideas_v3.py` to robustly parse the 101 ideas from the Markdown export.
+    - Implemented advanced features: footer-based page splitting, regex field markers, and an author-recovery heuristic.
+    - Verified the dataset using `check_missing_numbers.py`: **101/101 ideas successfully extracted**.
+    - Cleaned and finalized `data/ideas.json` (159KB).
+- **Web App Planning**:
+    - Evaluated approaches for showcasing the ideas.
+    - Selected **Approach 2**: Modern React/Vite app with dynamic filtering and responsive design.
 - **PDF Extraction Research**: 
-    - Continued using Antigravity to explore PDF parsing options.
-    - Researched and documented a comprehensive list of tools for PDF-to-text conversion on macOS.
-    - Identified **Marker** and **PyMuPDF4LLM** as top-tier open-source alternatives for high-quality Markdown extraction with layout preservation.
-    - Created `pdf-to-text-tools.md` to track these resources for the project.
+    - Documented a comprehensive list of tools for PDF-to-text conversion on macOS in `pdf-to-text-tools.md`.
+    - Identified **Marker** and **PyMuPDF4LLM** as top-tier open-source alternatives.
 
 ## 2026-01-13
 - **Project Kickoff**:
