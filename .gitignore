@@ -10,4 +10,3 @@ venv/
 # Archives and large temporary files
 archive/
 exports/
-data/ideas.json

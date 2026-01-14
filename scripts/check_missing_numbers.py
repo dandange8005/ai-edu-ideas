@@ -1,6 +1,6 @@
 import json
 
-with open('ideas.json', 'r') as f:
+with open('data/ideas.json', 'r') as f:
     ideas = json.load(f)
 
 numbers = set()
