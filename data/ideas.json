@@ -10,7 +10,12 @@
     "tools_used": "ChatGPT",
     "my_idea": "Exploring the use of AI feedback poetry to engage students with the feedback they receive and give in new ways. Evidence suggests that students often don't engage with the feedback they receive. Feedback that has been put together by educators with care.",
     "what_i_aim_to_achieve": "We know that poetry and storytelling more generally can have connecting powers (Moon, 2010; Illingworth, 2022). Could AI poetry created with human input help educators communicate the key feedback message and also potentially help students engage in peer-to-peer feedback using feedback poetry? After all, feedback works well when it is dialogic (Carless, 2017). Could it also reduce the amount and time educators spend on providing feedback?",
-    "where_the_inspiration_comes_from": "I have used alternative feedback approaches in the past, including audio feedback, which can bring the message alive and can create a real connection between the giver and the receiver. While I was exploring ChatGPT, the idea of feedback poetry emerged at a time I was marking students' work as a way to perhaps engage students in a different way with the feedback they receive and potentially reduce feedback load and time spent on it. I am trialling it at the moment just with one student."
+    "where_the_inspiration_comes_from": "I have used alternative feedback approaches in the past, including audio feedback, which can bring the message alive and can create a real connection between the giver and the receiver. While I was exploring ChatGPT, the idea of feedback poetry emerged at a time I was marking students' work as a way to perhaps engage students in a different way with the feedback they receive and potentially reduce feedback load and time spent on it. I am trialling it at the moment just with one student.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Textual",
+      "Functional"
+    ]
   },
   {
     "idea_number": "02",
@@ -23,7 +28,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "I wanted to explore the use of AI for interpreting and evaluating extracts of interviews, in order to help students to understand the value, as well as the limitations, of AI ChatGPT-3 as a learning tool, in particular when it comes to completeness of information, critical thinking and moral reasoning.",
     "what_i_aim_to_achieve": "Students can now use Artificial Intelligence to seek for answers to questions that educators present to them as part of their homework or in class discussions. I intend to show how the dialogical and critical engagement with this Chat by students is a valuable exercise for them for the development of their own critical thinking.",
-    "where_the_inspiration_comes_from": "I was invited to give a keynote speech in a conference on Artificial Intelligence, Data Science and Text Analytics for Education Resources. In preparation for my talk, I decided to ask the Chat the same questions that I ask my own students in one of our class activities."
+    "where_the_inspiration_comes_from": "I was invited to give a keynote speech in a conference on Artificial Intelligence, Data Science and Text Analytics for Education Resources. In preparation for my talk, I decided to ask the Chat the same questions that I ask my own students in one of our class activities.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "03",
@@ -36,7 +45,11 @@
     "tools_used": "OpenAI DALL·E",
     "my_idea": "Often we all find it hard to express a response to something, an idea, an experience, a concept and communicate this with richness. Using visual language can help. Humans use visual metaphors routinely but if we ask people to represent these visually at least some may feel uncomfortable. Could AI help us develop visual literacy and create new opportunities for arts-based communication? Could it also sharpen our own thinking?",
     "what_i_aim_to_achieve": "To invite students to consider alternative ways to communicate a message linked to an experience, concept, idea and present this with greater richness using their own visual metaphors as input. Seeing their own metaphor in front of them and being able to share their artistic AI creation with others, could become a useful tool to be used as a discussion aid.",
-    "where_the_inspiration_comes_from": "I use visual language in my practice and scholarship (including learning through making using LEGO(R) SERIOUS PLAY(R), play doh for example). This AI tool seems to extent such opportunities in new ways, with an artistic flair to also connect emotionally perhaps?"
+    "where_the_inspiration_comes_from": "I use visual language in my practice and scholarship (including learning through making using LEGO(R) SERIOUS PLAY(R), play doh for example). This AI tool seems to extent such opportunities in new ways, with an artistic flair to also connect emotionally perhaps?",
+    "theme": "Creative Arts",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "04",
@@ -49,7 +62,11 @@
     "tools_used": "Midjourney",
     "my_idea": "Using AI software and tools to critically reflect with students on digital technology and its use in education/for study.",
     "what_i_aim_to_achieve": "While it is tempting to ask students to use a particular AI software for learning, both faculty and students should critically reflect on the technology available. A possible activity before recommending/using a particular software could be: to find out more about the company that has developed the tool; to read and annotate the Terms of Service; to explore the AI technology used; to find reviews.",
-    "where_the_inspiration_comes_from": "I am a researcher exploring online education and hybrid learning with a strong interest in social justice, collaboration, and creativity/play."
+    "where_the_inspiration_comes_from": "I am a researcher exploring online education and hybrid learning with a strong interest in social justice, collaboration, and creativity/play.",
+    "theme": "Technical Skills",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "05",
@@ -62,7 +79,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Exploring the use of AI as a conversational buddy to develop critical reading and inquiry skills through developing our own questioning, challenge and be challenged.",
     "what_i_aim_to_achieve": "To create opportunities for conversational learning using AI, in this case ChatGPT or similar tools, as a conversation buddy. Could this type of conversations help us develop and sharpen our socratic questioning techniques, and open up to diverse perspectives?",
-    "where_the_inspiration_comes_from": "From a need to learn to question, challenge and embrace diverse perspectives to construct an informed academic argument and remain curious about the world."
+    "where_the_inspiration_comes_from": "From a need to learn to question, challenge and embrace diverse perspectives to construct an informed academic argument and remain curious about the world.",
+    "theme": "Research & Inquiry",
+    "tags": [
+      "Conversational"
+    ]
   },
   {
     "idea_number": "06",
@@ -75,7 +96,11 @@
     "tools_used": "OpenAI API",
     "my_idea": "My project involves developing a graphical user interface for a program that employs artificial intelligence (AI) to impersonate persona given by the user so that a human researcher can interview it.",
     "what_i_aim_to_achieve": "With this bot, a student-researcher can ask the AI-powered virtual participant questions on a variety of topics. The interaction can be downloaded and used as 'authentic' data for qualitative analysis in a pedagogical context.",
-    "where_the_inspiration_comes_from": "I believe students will learn how to conduct thematic, discourse, content, and narrative analysis better if they have authentic data. However, any human interaction for research purposes is subject to ethics review."
+    "where_the_inspiration_comes_from": "I believe students will learn how to conduct thematic, discourse, content, and narrative analysis better if they have authentic data. However, any human interaction for research purposes is subject to ethics review.",
+    "theme": "Research & Inquiry",
+    "tags": [
+      "Conversational"
+    ]
   },
   {
     "idea_number": "07",
@@ -88,7 +113,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Academics can, and should, explore the idea of inputting (or, indeed, getting their students to input) the parameters of their assessments into tools, such as ChatGPT, and ask it to create a real-world brief by acting as a 'client' in the context of their disciplinary background.",
     "what_i_aim_to_achieve": "There is potential here for variety in assessment, which reduces the potential for copying and academic misconduct and increases the inclusivity of the assessment.",
-    "where_the_inspiration_comes_from": "I am currently focused on assessment and feedback practices in my role at Liverpool, and am also part of Liverpool's working group to explore AI in academic integrity and assessment."
+    "where_the_inspiration_comes_from": "I am currently focused on assessment and feedback practices in my role at Liverpool, and am also part of Liverpool's working group to explore AI in academic integrity and assessment.",
+    "theme": "Assessment & Feedback",
+    "tags": []
   },
   {
     "idea_number": "08",
@@ -101,7 +128,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "The superpowers of language generators can be harnessed to improve writing skills.",
     "what_i_aim_to_achieve": "The use of Generative Pre-trained Transformer 3 (GPT-3) provides individuals with a unique opportunity to enhance their writing skills. At the simplest level, this can be achieved by learning from the model's writing style and observing and mimicking its language patterns and phrasing.",
-    "where_the_inspiration_comes_from": "Banning GPT-3 in schools, districts, and states is a knee-jerk reaction to the fear of students cheating. Instead, the focus should be utilizing it as a calculator, spell check, grammar check or other digital tool."
+    "where_the_inspiration_comes_from": "Banning GPT-3 in schools, districts, and states is a knee-jerk reaction to the fear of students cheating. Instead, the focus should be utilizing it as a calculator, spell check, grammar check or other digital tool.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "09",
@@ -114,7 +145,13 @@
     "tools_used": "ChatGPT, YouTube",
     "my_idea": "In-Class Video Transcription is hard to capture because children and adults 'um' and 'er' and YouTube writes this in a timestamp manner making it practically impossible to transcribe for free because there is no formatting or grammar to speak of.",
     "what_i_aim_to_achieve": "Write the voice from YouTube Transcriptions (toggled timestamps) copy, and paste it to ChatGPT to make it grammatically correct and understand interview situations.",
-    "where_the_inspiration_comes_from": "Using other services such as WordOnline, audio-to-text bottoms out at about 2 minutes. Siri loses its mind at a paragraph in the length of dictation."
+    "where_the_inspiration_comes_from": "Using other services such as WordOnline, audio-to-text bottoms out at about 2 minutes. Siri loses its mind at a paragraph in the length of dictation.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Visual",
+      "Textual",
+      "Functional"
+    ]
   },
   {
     "idea_number": "10",
@@ -127,7 +164,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Utilise ChatGPT (or a similar platform) as a host/facilitator simulating a television quiz format that students are familiar with.",
     "what_i_aim_to_achieve": "Improved student engagement and motivation, formative assessment of student progress, concept and topic revision, improved memory retention, and a bit of fun.",
-    "where_the_inspiration_comes_from": "Shouting answers at television quizzes for many, many years. The enjoyment of small group participation with a 'slightly' competitive nature."
+    "where_the_inspiration_comes_from": "Shouting answers at television quizzes for many, many years. The enjoyment of small group participation with a 'slightly' competitive nature.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Conversational"
+    ]
   },
   {
     "idea_number": "11",
@@ -140,7 +181,11 @@
     "tools_used": "Stable Diffusion, Midjourney, Flair, Looka, Copymatic, ChatGPT",
     "my_idea": "AI tools are ideal for rapidly creating multimedia content. The outputs can be quickly repurposed for specific audiences. Having students build rapid prototypes can be hampered by marketing needs. AI tools can be used for this purpose to enhance pitches and assist in marketing ideas.",
     "what_i_aim_to_achieve": "Improve the quality and speed of the development of rapid prototypes and accompanying marketing materials in the start up process. An understanding how use of AI technology assists rapid prototyping, making access and involvements in start up easier.",
-    "where_the_inspiration_comes_from": "A.I. Explore: Concept Vehicles + Shot Location by Brian Sykes"
+    "where_the_inspiration_comes_from": "A.I. Explore: Concept Vehicles + Shot Location by Brian Sykes",
+    "theme": "Technical Skills",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "12",
@@ -153,7 +198,11 @@
     "tools_used": "ChatGPT, Midjourney, H5P",
     "my_idea": "Leveraging AI as a thought partner in the authoring of branching scenarios to give learners authentic critical thinking assessments.",
     "what_i_aim_to_achieve": "Authoring case studies is a time consuming process, and the case studies that are out there often don't have all the components that would lead to an engaging and helpful learning experience. By leveraging AI, we are able to author not only a comprehensive case study, but generate relevant dialogue, feedback, and branches that take the learner on a content-rich journey.",
-    "where_the_inspiration_comes_from": "As the Instructional Technologist on the OpenRN project, we have already been creating a host of virtual scenarios to support nursing students."
+    "where_the_inspiration_comes_from": "As the Instructional Technologist on the OpenRN project, we have already been creating a host of virtual scenarios to support nursing students.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "13",
@@ -166,7 +215,12 @@
     "tools_used": "Just a place to share the image with students",
     "my_idea": "Use the meme I made to start conversation about unethical practices in ChatGPT's process of creating an ethical AI (exploitation of Kenyan workers).",
     "what_i_aim_to_achieve": "I am aiming for students to do the research and find the above article or something like it or all the ethical issues connected to AI or ChatGPT.",
-    "where_the_inspiration_comes_from": "The Time magazine article mentioned previously, Autumm Caines' article 'Prior to (or instead of) using ChatGPT with your students', and Chris Gilliard and Pete Rorabaugh's article."
+    "where_the_inspiration_comes_from": "The Time magazine article mentioned previously, Autumm Caines' article 'Prior to (or instead of) using ChatGPT with your students', and Chris Gilliard and Pete Rorabaugh's article.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Visual",
+      "Conversational"
+    ]
   },
   {
     "idea_number": "14",
@@ -179,7 +233,11 @@
     "tools_used": "OpenAI API",
     "my_idea": "GPT-3 rubric generator. This tool aim to streamline the process of creating a rubric, by automatically generating one based on a given learning outcome.",
     "what_i_aim_to_achieve": "This tool can be incredibly useful for educators, who often spend a significant amount of time creating these detailed evaluation guides. This tool can save them time and provide a starting point for customizing the generated rubric to fit the specific needs of their course and students.",
-    "where_the_inspiration_comes_from": "Rubric creation is laborious. Creating these evaluation guides for each course can be tedious for educators. I saw an opportunity to automate this process using GPT-3."
+    "where_the_inspiration_comes_from": "Rubric creation is laborious. Creating these evaluation guides for each course can be tedious for educators. I saw an opportunity to automate this process using GPT-3.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "15",
@@ -192,7 +250,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Use an AI chatbot such as ChatGPT to assist in the design and development of a hybrid and unique concept computer game while also developing your own skills in this field.",
     "what_i_aim_to_achieve": "Have students use AI chatbots for ideation. Develop an understanding of when to use chatbots and when not to. Have students use AI chatbots to assist in programming.",
-    "where_the_inspiration_comes_from": "Tobias Zwingmann"
+    "where_the_inspiration_comes_from": "Tobias Zwingmann",
+    "theme": "Creative Arts",
+    "tags": []
   },
   {
     "idea_number": "16",
@@ -205,7 +265,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Generate PBL scenarios with the help of ChatGPT based on specific prompts by educators and/or students to enable inquiry based learning on own or in small groups that triggers curiosity for learning and discovery through critical and creative problem-solving.",
     "what_i_aim_to_achieve": "To focus on important elements of a scenario that will provide the parameters and build in potential challenges and complexity that need to be identified and resolved through inquiry.",
-    "where_the_inspiration_comes_from": "PBL is still widely under-used to boost collaborative learning. We are faced with enormous challenges today that require radical collaboration."
+    "where_the_inspiration_comes_from": "PBL is still widely under-used to boost collaborative learning. We are faced with enormous challenges today that require radical collaboration.",
+    "theme": "Research & Inquiry",
+    "tags": []
   },
   {
     "idea_number": "17",
@@ -218,7 +280,12 @@
     "tools_used": "ChatGPT",
     "my_idea": "Have a conversation with students about whether AI tools can be considered 'authors,' and the role of citation in scholarly work.",
     "what_i_aim_to_achieve": "Reflection on what it means to build on the work of others, what are the purposes of citation, whether current citation practices fulfill those purposes. This can support student learning about academic integrity as well.",
-    "where_the_inspiration_comes_from": "Policies from scholarly journals about whether ChatGPT can be listed as a co-author. Also from conversations with colleagues about how to attribute or cite such tools."
+    "where_the_inspiration_comes_from": "Policies from scholarly journals about whether ChatGPT can be listed as a co-author. Also from conversations with colleagues about how to attribute or cite such tools.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Textual",
+      "Conversational"
+    ]
   },
   {
     "idea_number": "18",
@@ -231,7 +298,9 @@
     "tools_used": "ChatGPT or Perplexity",
     "my_idea": "Each student asks ChatGPT to write 200 words in response to a stimulus. The students have a pro forma to complete independently, which includes elements in the AI-generated answer such as: Quality of English, Quality of references, Correct referencing style, Quality of argument, etc.",
     "what_i_aim_to_achieve": "Encouraging students to use AI in a critical way that will help them to develop skills needed for higher education, including critical thinking, referencing, summarising and group work.",
-    "where_the_inspiration_comes_from": "Working with colleagues and students on how to use generative AI positively and the need to develop critical thinking skill to make academic choices when using different sources."
+    "where_the_inspiration_comes_from": "Working with colleagues and students on how to use generative AI positively and the need to develop critical thinking skill to make academic choices when using different sources.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "19",
@@ -244,7 +313,11 @@
     "tools_used": "ChatGPT, DALL·E 2",
     "my_idea": "Explore AI's profound informational, contextual and emotional influence. Using (2 different) AI image generators, generate 4 basic emotion images from each AI generator, using the same or similar prompts.",
     "what_i_aim_to_achieve": "Create two sets of four AI generated images (8 images in total), in a shared Google Doc, analyze how the informational influence on emotions using AI generated images, and emotion research in learning.",
-    "where_the_inspiration_comes_from": "Dr Marc Brackett, Emotional Intelligence Center at Yale University."
+    "where_the_inspiration_comes_from": "Dr Marc Brackett, Emotional Intelligence Center at Yale University.",
+    "theme": "Research & Inquiry",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "20",
@@ -257,7 +330,9 @@
     "tools_used": "Students' brains ft. ChatGPT",
     "my_idea": "Think-Pair-Share activity where students individually tackle a topic through the lens of three different types of ChatGPT prompt-driven uses. Then, students pair up to exchange what surprised them in the process, and share those insights with the group.",
     "what_i_aim_to_achieve": "Have students directly experience that ChatGPT is more of a stochastic parrot than a thinking machine. Nurture critical thinking and understanding of the strengths and limitations of various prompt-driven ChatGPT uses.",
-    "where_the_inspiration_comes_from": "[Generative AI] is the first general-purpose technology available to non-technical people that can solve practical problems. - A quote by Ethan Mollick"
+    "where_the_inspiration_comes_from": "[Generative AI] is the first general-purpose technology available to non-technical people that can solve practical problems. - A quote by Ethan Mollick",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "21",
@@ -270,7 +345,9 @@
     "tools_used": "DALL·E 2",
     "my_idea": "As teachers, especially foundation phase/junior school teachers resources are always needed for lessons - pictures and images.",
     "what_i_aim_to_achieve": "Picture/s for teacher to use as a resource for a lesson. In this instance a Foundation Phase lesson about being helpful at home.",
-    "where_the_inspiration_comes_from": "Teachers needing teaching resources to use for lessons. Encouraging teachers to play with AI to get to know the tools and see how they can be useful to them in various ways."
+    "where_the_inspiration_comes_from": "Teachers needing teaching resources to use for lessons. Encouraging teachers to play with AI to get to know the tools and see how they can be useful to them in various ways.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "22",
@@ -283,7 +360,11 @@
     "tools_used": "ChatGPT, DALL.E",
     "my_idea": "Using ChatGPT to create and then impersonate a persona created by the student. The student then interviews the persona about the topic of their project.",
     "what_i_aim_to_achieve": "I want to show my students how they might use the AI to help improve their instructional designs - especially when they are working on fictional projects.",
-    "where_the_inspiration_comes_from": "All the previous examples in this slidedeck."
+    "where_the_inspiration_comes_from": "All the previous examples in this slidedeck.",
+    "theme": "Research & Inquiry",
+    "tags": [
+      "Conversational"
+    ]
   },
   {
     "idea_number": "23",
@@ -296,7 +377,9 @@
     "tools_used": "DALL·E 2",
     "my_idea": "An ideas generation activity",
     "what_i_aim_to_achieve": "To open up our imagination and free us to be creative without boundaries. Making the impossible possible.",
-    "where_the_inspiration_comes_from": "Torrance (1966) and Guilford's (1968) test of creative thinking, which I use regularly not to measure creative thinking but to bring it out in people."
+    "where_the_inspiration_comes_from": "Torrance (1966) and Guilford's (1968) test of creative thinking, which I use regularly not to measure creative thinking but to bring it out in people.",
+    "theme": "Creative Arts",
+    "tags": []
   },
   {
     "idea_number": "24",
@@ -309,7 +392,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "There is so much more that can be done beyond the 'writing' functionalities of tools like ChatGPT that are dominating headlines, but we need to shine a very bright light on some of these lest they are sidelined in a confusion of anxiety and knee-jerk responses.",
     "what_i_aim_to_achieve": "Collect and share ways of using LLM tools beyond the obvious to encourage educator colleagues to see wider possibilities, to explore for themselves wider affordances and limitations and engage with (rather than instinctively push against) these technologies.",
-    "where_the_inspiration_comes_from": "My own inability to ever cease fiddling with things and, of course, the wider academic community."
+    "where_the_inspiration_comes_from": "My own inability to ever cease fiddling with things and, of course, the wider academic community.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "25",
@@ -322,7 +409,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Use AI-generated text to delve into the specifics of literary styles by analyzing its approximation of different authors' writing.",
     "what_i_aim_to_achieve": "AIs such as ChatGPT aren't 'intelligent' in the way some people think. But it is (already) good at creating pastiche texts in the style of particular authors. Considering 'why' the AI emulated the style requires learners to undertake deeper consideration of the works of the authors in question.",
-    "where_the_inspiration_comes_from": "I've worked with faculty who teach writing and taught it myself. AI-generated builds on traditional compare/contrast/analysis by providing another layer for considering the construction and effects of writing style."
+    "where_the_inspiration_comes_from": "I've worked with faculty who teach writing and taught it myself. AI-generated builds on traditional compare/contrast/analysis by providing another layer for considering the construction and effects of writing style.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "26",
@@ -335,7 +426,9 @@
     "tools_used": "QuickDraw, Autodraw",
     "my_idea": "Use QuickDraw and Autodraw to help students understand how AI learns (QuickDraw), has biases and can then be used after trained to do something else (Autodraw).",
     "what_i_aim_to_achieve": "For students to understand some of what AI can do and how it uses user data as part of training/testing set to then produce a more polished product. Be able to discuss cultural bias and potential advantages and disadvantages of such technology.",
-    "where_the_inspiration_comes_from": "Playing QuickDraw with my daughter. Learned about it through ds106 assignment bank."
+    "where_the_inspiration_comes_from": "Playing QuickDraw with my daughter. Learned about it through ds106 assignment bank.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "27",
@@ -348,7 +441,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Exploring the use of AI to support teachers in all grades of education to find their teacher identity, to boost their confidence, to reflect on their teaching practices, to build better working relations with colleagues.",
     "what_i_aim_to_achieve": "Can ChatGPT be the mentor teachers were long awaiting for? Providing immediate support, guidance, ideas to teachers.",
-    "where_the_inspiration_comes_from": "Teachers inspire me. Their love for teaching, their commitment to their work, their devotion to their learners."
+    "where_the_inspiration_comes_from": "Teachers inspire me. Their love for teaching, their commitment to their work, their devotion to their learners.",
+    "theme": "Teaching Support",
+    "tags": [
+      "Conversational"
+    ]
   },
   {
     "idea_number": "28",
@@ -361,7 +458,9 @@
     "tools_used": "Character AI",
     "my_idea": "I wanted to use generative AI that would directly engage students and provide critical evaluation and reflection opportunities.",
     "what_i_aim_to_achieve": "Students will go to either Historical Figures Chat or Hello History or Character AI and chat with a historical figure. Then they will reflect on the chat. Did the AI make any factual errors?",
-    "where_the_inspiration_comes_from": "Having students dig into sources to find information gets them more engaged than listening to someone lecture about a person or even being assigned readings."
+    "where_the_inspiration_comes_from": "Having students dig into sources to find information gets them more engaged than listening to someone lecture about a person or even being assigned readings.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "29",
@@ -374,7 +473,12 @@
     "tools_used": "ChatGPT",
     "my_idea": "Students watch video and annotate orientations to ChatGPT, then read a NYT article and a sample ChatGPT critical assessment alongside a sample human-written assessment.",
     "what_i_aim_to_achieve": "Understanding language models as statistical text predictors, not thinkers. Familiarity with common deficiencies in their outputs. Increased skill and confidence with critical assessment.",
-    "where_the_inspiration_comes_from": "View the activities on Canvas or Canvas Commons"
+    "where_the_inspiration_comes_from": "View the activities on Canvas or Canvas Commons",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Visual",
+      "Textual"
+    ]
   },
   {
     "idea_number": "30",
@@ -387,7 +491,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Students on my public history module are set a 2000-word essay. Instead of giving them a standard essay, I typed the essay questions into ChatGPT and asked it for a short answer of 1-3 sentences. The student's essay is whether or not they agree with the statement it produced.",
     "what_i_aim_to_achieve": "The goal here was to give students a statement they could stick their teeth into and pull apart, thus advancing their critical thinking.",
-    "where_the_inspiration_comes_from": "As a public historian (and a public history module), it was important to me that the assessment engages students with the world around them."
+    "where_the_inspiration_comes_from": "As a public historian (and a public history module), it was important to me that the assessment engages students with the world around them.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "31",
@@ -400,7 +508,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Using ChatGPT to assist School Counsellors in finding creative ways to help their students.",
     "what_i_aim_to_achieve": "I am hoping School Counsellors from across the world will utilize AI tools like ChatGPT to assist them in finding creative ways to help and make a difference for the students they work with.",
-    "where_the_inspiration_comes_from": "Attending an online workshop by Dr Alec Couros. Reading and looking at the many ways educators use AI tools."
+    "where_the_inspiration_comes_from": "Attending an online workshop by Dr Alec Couros. Reading and looking at the many ways educators use AI tools.",
+    "theme": "Creative Arts",
+    "tags": []
   },
   {
     "idea_number": "32",
@@ -413,7 +523,12 @@
     "tools_used": "ChatGPT",
     "my_idea": "An opportunity to use AI tools such as ChatGPT as a feedback buddy on something we are working on.",
     "what_i_aim_to_achieve": "Create opportunities for self-organised peer review that has the potential to reduce dependency on human feedback at least partially or where not available.",
-    "where_the_inspiration_comes_from": "We recently offered an event on AI in HE and while the announcement was written by a human, we did seek feedback from ChatGPT which helped us further refine the announcement."
+    "where_the_inspiration_comes_from": "We recently offered an event on AI in HE and while the announcement was written by a human, we did seek feedback from ChatGPT which helped us further refine the announcement.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Conversational",
+      "Functional"
+    ]
   },
   {
     "idea_number": "33",
@@ -426,7 +541,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Students use ChatGPT to generate various responses to an assessment question. Each student then synthesizes and critiques the responses generated by ChatGPT and assesses the work using criteria.",
     "what_i_aim_to_achieve": "Students can lack confidence in peer assessment and can be reluctant to mark peers and give feedback. I wanted to use ChatGPT to support students in building their confidence in peer assessment.",
-    "where_the_inspiration_comes_from": "The benefits of peer assessment are well documented – deepening students' learning experiences, fostering higher-order thinking skills."
+    "where_the_inspiration_comes_from": "The benefits of peer assessment are well documented – deepening students' learning experiences, fostering higher-order thinking skills.",
+    "theme": "Assessment & Feedback",
+    "tags": []
   },
   {
     "idea_number": "34",
@@ -439,7 +556,11 @@
     "tools_used": "DALL·E 2",
     "my_idea": "Rewriting with AI Image Generators",
     "what_i_aim_to_achieve": "Students must write effective & brief summaries of their writing to provide an AI image generator with pertinent instructions. The exercise helps students summarize in directive ways as well as learn how to thoughtfully and intentionally collaborate with AI tools.",
-    "where_the_inspiration_comes_from": "Discussing their multimodal memoirs, students wondered what kinds of images they could use. I suggested AI and plugged an entire essay into the prompt."
+    "where_the_inspiration_comes_from": "Discussing their multimodal memoirs, students wondered what kinds of images they could use. I suggested AI and plugged an entire essay into the prompt.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "35",
@@ -452,7 +573,12 @@
     "tools_used": "Any AI tool + PDF Reader",
     "my_idea": "Read speculative futures fiction on AI from this journal article by Bozkurt et al., 2023 with around 40 stories from around the world, then write your own.",
     "what_i_aim_to_achieve": "Have students reflect on possible positive and negative futures for AI in their discipline.",
-    "where_the_inspiration_comes_from": "Speculative Futures on ChatGPT and Generative Artificial Intelligence (AI): A Collective Reflection from the Educational Landscape by Bozkurt et al., 2023."
+    "where_the_inspiration_comes_from": "Speculative Futures on ChatGPT and Generative Artificial Intelligence (AI): A Collective Reflection from the Educational Landscape by Bozkurt et al., 2023.",
+    "theme": "Creative Arts",
+    "tags": [
+      "Textual",
+      "Functional"
+    ]
   },
   {
     "idea_number": "36",
@@ -465,7 +591,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Students can use ChatGPT as a debate partner to go back and forth and use ChatGPT to examine every side of a particular issue.",
     "what_i_aim_to_achieve": "Learning to critically think, problem solve, build links between ideas and synthesise complex information can have far reaching effects in every aspect of a student's life.",
-    "where_the_inspiration_comes_from": "I have used the debate process with students to encourage active learning and help increase critical thinking."
+    "where_the_inspiration_comes_from": "I have used the debate process with students to encourage active learning and help increase critical thinking.",
+    "theme": "Teaching Support",
+    "tags": [
+      "Conversational"
+    ]
   },
   {
     "idea_number": "37",
@@ -478,7 +608,11 @@
     "tools_used": "OpenAI's GPT-4 API, accessed from the BlueJ IDE",
     "my_idea": "Harness the power of AI in a positive way by adding support features to the students' introductory programming environment. This allows students to ask questions about the code they have written and gain help 24/7.",
     "what_i_aim_to_achieve": "Independent learning with additional, intelligent, round-the-clock support for learning to program.",
-    "where_the_inspiration_comes_from": "Students are often blocked from making progress because of basic coding errors or lack of understanding of existing code."
+    "where_the_inspiration_comes_from": "Students are often blocked from making progress because of basic coding errors or lack of understanding of existing code.",
+    "theme": "Technical Skills",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "38",
@@ -491,7 +625,11 @@
     "tools_used": "Animate Voice by Adobe",
     "my_idea": "Many students don't actively engage with media creation such as video as they don't want to show their faces. Animate from audio animates and lipsyncs a 2D character for the student, using AI to detect tone and give a suitable motion.",
     "what_i_aim_to_achieve": "Empower students to share their stories and understanding with their own voices.",
-    "where_the_inspiration_comes_from": "Tiktok and Snapchat provide basic tools to distort or change your look when you create content."
+    "where_the_inspiration_comes_from": "Tiktok and Snapchat provide basic tools to distort or change your look when you create content.",
+    "theme": "Creative Arts",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "39",
@@ -504,7 +642,11 @@
     "tools_used": "Teams live meeting, Padlet, ChatGPT, SEDA blog",
     "my_idea": "I used ChatGPT to answer 'hot questions' about the use of ChatGPT in a live Padlet Forum meeting with over 60 global colleagues.",
     "what_i_aim_to_achieve": "I wanted to compare ChatGPT answers to those of the humans… and then further see how ChatGPT could support academic writing to produce a written output in a very short time frame.",
-    "where_the_inspiration_comes_from": "I had seen a journal article shared on twitter where the author listed ChatGPT as a co-author."
+    "where_the_inspiration_comes_from": "I had seen a journal article shared on twitter where the author listed ChatGPT as a co-author.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "40",
@@ -517,7 +659,12 @@
     "tools_used": "ChatGPT, DALL·E and any AI emerging technology",
     "my_idea": "Explore through AI enabled tools such as ChatGPT and DALL·E how discriminatory data triggers gender bias in AI, prompting questions for text and visual outcomes to then discuss in groups where are the bias and how these can be mitigated.",
     "what_i_aim_to_achieve": "To support educators and students the risks of letting machines to make decisions that can deeply affect the present and future of groups putting them disadvantage widening the gender gap.",
-    "where_the_inspiration_comes_from": "The data feminism book and current discussions of feminist data leaders and pedagogist about the impact on women and other vulnerable communities."
+    "where_the_inspiration_comes_from": "The data feminism book and current discussions of feminist data leaders and pedagogist about the impact on women and other vulnerable communities.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Visual",
+      "Textual"
+    ]
   },
   {
     "idea_number": "41",
@@ -530,7 +677,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Stimulate critical thinking by letting students figure out a question in a particular domain, asking the ChatGPT to answer it, the write a mini-essay providing (both positive and at least one negative) criticism on the ChatGPT grounded in academic literature references.",
     "what_i_aim_to_achieve": "Move away from preventing students from using ChatGPT but instead allowing it so that they have to learn to think critically and interrogate AI outputs.",
-    "where_the_inspiration_comes_from": "Instead of trying to blindly assume that students would use it for plagiarising, I wanted to tackle the ChatGPT 'challenge' head-on by co-opting it into their writing/thinking toolset."
+    "where_the_inspiration_comes_from": "Instead of trying to blindly assume that students would use it for plagiarising, I wanted to tackle the ChatGPT 'challenge' head-on by co-opting it into their writing/thinking toolset.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "42",
@@ -543,7 +694,9 @@
     "tools_used": "DALL·E 2",
     "my_idea": "Using AI tools like DALL·E 2 for Teaching/learning about inclusive environments.",
     "what_i_aim_to_achieve": "The bias present in various online sources is reflected in the data gathered by AI tools. Faculty could use these tools to teach about implicit/explicit bias and how to foster diverse and inclusive learning environments.",
-    "where_the_inspiration_comes_from": "Being an instructional developer, I have had instances where faculty from Civil/Mechanical Engineering telling me that the students in their classroom are much more invested to learn from a male professor than a female."
+    "where_the_inspiration_comes_from": "Being an instructional developer, I have had instances where faculty from Civil/Mechanical Engineering telling me that the students in their classroom are much more invested to learn from a male professor than a female.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "43",
@@ -556,7 +709,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Invite students to annotate an article written by a human against one by ChatGPT. Invite students to critique the ChatGPT output and to find examples of sentences that sound plausible but are wrong or do not quite make sense.",
     "what_i_aim_to_achieve": "Encouraging students to develop their critical analysis skills through making judgements, evaluating information against PROMPT (provenance, relevance, objectivity, method, presentation and timeliness), reflecting and communication.",
-    "where_the_inspiration_comes_from": "Just like with finding information on the web, students need to critically evaluate the resource and ChatGPT is no different."
+    "where_the_inspiration_comes_from": "Just like with finding information on the web, students need to critically evaluate the resource and ChatGPT is no different.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "44",
@@ -569,7 +726,12 @@
     "tools_used": "Chatbots",
     "my_idea": "Using chatbots as a tool to increase overseas students' confidence in conversation and improving well-being.",
     "what_i_aim_to_achieve": "I want the UK HE to understand overseas students in an international pastoral context and to consider the implementation of AI as a supportive system in the students' portal to provide personalized assistance to increase their conversational confidence and improve their well-being.",
-    "where_the_inspiration_comes_from": "It was an over-the-moon experience when I learned I was granted the opportunity to study overseas. However, I landed in foreign land and started wondering how I will adapt to my new setting."
+    "where_the_inspiration_comes_from": "It was an over-the-moon experience when I learned I was granted the opportunity to study overseas. However, I landed in foreign land and started wondering how I will adapt to my new setting.",
+    "theme": "Teaching Support",
+    "tags": [
+      "Conversational",
+      "Functional"
+    ]
   },
   {
     "idea_number": "45",
@@ -582,7 +744,9 @@
     "tools_used": "Tim Holman's Texter",
     "my_idea": "As a jigsaw reading activity, students read OpenAI's Privacy Policy and/or Terms of Use. Each pair carefully reads their excerpt and determines what is important for their classmates to know.",
     "what_i_aim_to_achieve": "Students should gain an understanding of what personal information OpenAI collects from registered users and what OpenAI is allowed to do with that information.",
-    "where_the_inspiration_comes_from": "In her blog post, Autumm Caines recommends having students socially annotate OpenAI's privacy and Terms of Service."
+    "where_the_inspiration_comes_from": "In her blog post, Autumm Caines recommends having students socially annotate OpenAI's privacy and Terms of Service.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "46",
@@ -595,7 +759,11 @@
     "tools_used": "ChatGPT, Stable Diffusion, Natural Readers",
     "my_idea": "To expand knowledge of an author, his/her social, historical, social, and cultural context, his/her main themes and style in an engaging way for students.",
     "what_i_aim_to_achieve": "Students will get involved in an engaging creative process whereby they exercise critical thinking and create their own cultural product which respects historical-literary criteria while also expressing their personal outlook.",
-    "where_the_inspiration_comes_from": "From the practice of creating written 'fake interviews' and role-plays for students."
+    "where_the_inspiration_comes_from": "From the practice of creating written 'fake interviews' and role-plays for students.",
+    "theme": "Creative Arts",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "47",
@@ -608,7 +776,9 @@
     "tools_used": "Geogebra open-source software, ChatGPT",
     "my_idea": "Using Geogebra to enhance the teaching and learning of mathematics",
     "what_i_aim_to_achieve": "Geogebra as a software that uses AI can be guided by chatGPT in enhancing the teaching and learning of mathematics with the help of its many interactive features.",
-    "where_the_inspiration_comes_from": "I got inspired by this software in 2019 during the COVID-19 pandemic wherein all the world educational institutions were at the stand-still."
+    "where_the_inspiration_comes_from": "I got inspired by this software in 2019 during the COVID-19 pandemic wherein all the world educational institutions were at the stand-still.",
+    "theme": "Technical Skills",
+    "tags": []
   },
   {
     "idea_number": "48",
@@ -621,7 +791,11 @@
     "tools_used": "DALL·E 2",
     "my_idea": "Students select a term or concept to represent visually. They then write words describing this and enter them into DALL.E2 to generate an AI-generated image.",
     "what_i_aim_to_achieve": "This activity will help students become reflective and consider how they can improve their writing and conceptual understanding.",
-    "where_the_inspiration_comes_from": "Five minute essay writing as a writing and reflection exercise."
+    "where_the_inspiration_comes_from": "Five minute essay writing as a writing and reflection exercise.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "49",
@@ -634,7 +808,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Create prompt guides and lesson materials that teach students how to use ChatGPT.",
     "what_i_aim_to_achieve": "Enhance students' AI literacy by utilizing ChatGPT to develop their research and writing skills and teach them how to use it ethically and effectively.",
-    "where_the_inspiration_comes_from": "I'm excited by how ChatGPT and other apps (e.g., elicit) can help students in the future."
+    "where_the_inspiration_comes_from": "I'm excited by how ChatGPT and other apps (e.g., elicit) can help students in the future.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "50",
@@ -647,7 +825,11 @@
     "tools_used": "Midjourney",
     "my_idea": "I would like to use Midjourney to organize an exhibition, with my pupils, of work made through some important philosophical phrases, or some key words related to the thought of the authors we deal with in class.",
     "what_i_aim_to_achieve": "Explore, with my pupils, the connection between art and philosophy",
-    "where_the_inspiration_comes_from": "When I was using Midjourney for my own purpose."
+    "where_the_inspiration_comes_from": "When I was using Midjourney for my own purpose.",
+    "theme": "Creative Arts",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "51",
@@ -660,7 +842,12 @@
     "tools_used": "Canva, ChatGPT, Quillbot",
     "my_idea": "Use AI tools to elicit debate about what constitutes their appropriate use by staff, and students, as well as scoping the limits of academic integrity.",
     "what_i_aim_to_achieve": "Greater understanding of what constitutes ethical AI use and the boundaries between various topics and fields.",
-    "where_the_inspiration_comes_from": "Discussions with colleagues that are still going on about the irony of using AI and an investigation of previously unrecognised ethical problems in HE practise."
+    "where_the_inspiration_comes_from": "Discussions with colleagues that are still going on about the irony of using AI and an investigation of previously unrecognised ethical problems in HE practise.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Visual",
+      "Conversational"
+    ]
   },
   {
     "idea_number": "52",
@@ -673,7 +860,12 @@
     "tools_used": "Canva, ChatGPT, Quillbot",
     "my_idea": "Use AI tools to elicit debate about what constitutes accuracy and truth when using AI. Where does the information come from and how do we know that it is correct?",
     "what_i_aim_to_achieve": "Greater understanding of what AI can do and to what extent can we rely on or use its output?",
-    "where_the_inspiration_comes_from": "Discussions with colleagues that are still going on about the uses and pitfalls of using AI."
+    "where_the_inspiration_comes_from": "Discussions with colleagues that are still going on about the uses and pitfalls of using AI.",
+    "theme": "Teaching Support",
+    "tags": [
+      "Visual",
+      "Conversational"
+    ]
   },
   {
     "idea_number": "53",
@@ -686,7 +878,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Students (in their assessment groups) use ChatGPT to create chapter summaries of their chosen monograph. They then swap summaries with another group.",
     "what_i_aim_to_achieve": "To show students that, whilst AI can generate fairly comprehensive book/chapter summaries, it is important to remember these tools are not perfect and may not capture all of the nuances of a book.",
-    "where_the_inspiration_comes_from": "University of Kent's webinars on Digitally enhanced education, and AI-generated article summaries for reading comprehension assessment."
+    "where_the_inspiration_comes_from": "University of Kent's webinars on Digitally enhanced education, and AI-generated article summaries for reading comprehension assessment.",
+    "theme": "Assessment & Feedback",
+    "tags": []
   },
   {
     "idea_number": "54",
@@ -699,7 +893,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Assessing the prompts that the students use and the process by which they refine them and then critique and reference the outputs of generative AI rather than the final product.",
     "what_i_aim_to_achieve": "Students will need to understand how to use generative AI tools, to refine initial prompts and critique the outputs as well as find suitable references for the work.",
-    "where_the_inspiration_comes_from": "Talking to students about their perception of AI tools and the #DryLabsRealScience network."
+    "where_the_inspiration_comes_from": "Talking to students about their perception of AI tools and the #DryLabsRealScience network.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "55",
@@ -712,7 +908,11 @@
     "tools_used": "Mobile device, iPad, Tablet",
     "my_idea": "An AI powered app that let's you have life-like conversations with historical figures.",
     "what_i_aim_to_achieve": "This will create an amazing opportunity for learners to formulate conceptual and debatable questions.",
-    "where_the_inspiration_comes_from": "LinkedIn"
+    "where_the_inspiration_comes_from": "LinkedIn",
+    "theme": "Teaching Support",
+    "tags": [
+      "Conversational"
+    ]
   },
   {
     "idea_number": "56",
@@ -725,7 +925,12 @@
     "tools_used": "ChatGPT",
     "my_idea": "Use ChatGPT as a translation buddy.",
     "what_i_aim_to_achieve": "Save time in translating text as part of open educational resources. Critical engagement with the translation is needed and a deep understanding of the language and good translation practice to finalise the output generated by ChatGPT.",
-    "where_the_inspiration_comes_from": "I needed to find a way that would enable us to make the open game we are developing in multiple languages and safe time and effort in this process."
+    "where_the_inspiration_comes_from": "I needed to find a way that would enable us to make the open game we are developing in multiple languages and safe time and effort in this process.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Conversational",
+      "Functional"
+    ]
   },
   {
     "idea_number": "57",
@@ -738,7 +943,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "To quickly produce student activities.",
     "what_i_aim_to_achieve": "Greater efficiency for me and higher quality activities for my students. I was able to complete a volume of work that would have taken me considerably longer to produce without the use of ChatGPT.",
-    "where_the_inspiration_comes_from": "I had spent some time sourcing and adapting three paragraphs to illustrate informative, persuasive and entertaining writing. I then heard about ChatGPT and decided to see if it could help."
+    "where_the_inspiration_comes_from": "I had spent some time sourcing and adapting three paragraphs to illustrate informative, persuasive and entertaining writing. I then heard about ChatGPT and decided to see if it could help.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "58",
@@ -751,7 +958,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "To facilitate understanding of clients, counselling students need to integrate their knowledge of various aspects such as ethics, boundaries, relationships, and techniques. AI could provide tailored case studies for discussing within and outside class.",
     "what_i_aim_to_achieve": "Students will use AI to generate novel case studies. These case studies can be tailored to focus explicitly on the topics or issues they find difficult.",
-    "where_the_inspiration_comes_from": "Case study discussions have formed part of my teaching for many years, and I am now running out of new ideas for cases!"
+    "where_the_inspiration_comes_from": "Case study discussions have formed part of my teaching for many years, and I am now running out of new ideas for cases!",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "59",
@@ -764,7 +973,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Counselling students need to discuss client case studies, drawing on their knowledge of various factors. Using AI to generate nudges could be a helpful solution.",
     "what_i_aim_to_achieve": "Students will use AI to generate a list of topics to be discussed from the real-world case studies presented in class.",
-    "where_the_inspiration_comes_from": "Providing nudges to students myself during case study discussion workshops."
+    "where_the_inspiration_comes_from": "Providing nudges to students myself during case study discussion workshops.",
+    "theme": "Creative Arts",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "60",
@@ -777,7 +990,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "My students said that they would value something more applied and suggested an assessment in which they complete an application form for a counselling job using ChatGPT to create the job description.",
     "what_i_aim_to_achieve": "Our mock job application process requires students to demonstrate their skills by communicating effectively, and evidence their applied understanding.",
-    "where_the_inspiration_comes_from": "My students!"
+    "where_the_inspiration_comes_from": "My students!",
+    "theme": "Assessment & Feedback",
+    "tags": []
   },
   {
     "idea_number": "61",
@@ -790,7 +1005,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "ChatGPT will be used as part of formative assessment. Students will be given an exam-style question to solve on their own. They will then be requested to check the answer on ChatGPT and compare their answers.",
     "what_i_aim_to_achieve": "This activity aims to improve students critical abilities when using AI sources by identifying their strengths and weaknesses.",
-    "where_the_inspiration_comes_from": "University discussions on innovation in assessment and feedback."
+    "where_the_inspiration_comes_from": "University discussions on innovation in assessment and feedback.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "62",
@@ -803,7 +1022,11 @@
     "tools_used": "ChatGPT, DALL.E 2, Midjourney",
     "my_idea": "Using ChatGPT to design 'Start up' vignettes for PBL 'Biotech Dragon's Den' for Pharmacology for 3rd year Undergrad.",
     "what_i_aim_to_achieve": "Students to gain experience in using AI tools as well as knowledge of some steps required to get a drug from 'Bench to Bedside' to cure patients.",
-    "where_the_inspiration_comes_from": "Programs I have been involved in for skills training for Biotech Entrepreneurs before in Australia."
+    "where_the_inspiration_comes_from": "Programs I have been involved in for skills training for Biotech Entrepreneurs before in Australia.",
+    "theme": "Technical Skills",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "63",
@@ -816,7 +1039,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "To test the effectiveness of ChatGPT in supporting students with developing independent revision strategies.",
     "what_i_aim_to_achieve": "Creating guidance materials (synchronous and asynchronous) on how students can use ChatGPT to help them revise.",
-    "where_the_inspiration_comes_from": "Lots of students panicking about upcoming exams!"
+    "where_the_inspiration_comes_from": "Lots of students panicking about upcoming exams!",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "64",
@@ -829,7 +1054,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Beyond knowledge – how linking, sense and fact checking matters in Business. We have students write with ChatGPT and then provide the edits to demonstrate deep thinking and application to link to informed practice.",
     "what_i_aim_to_achieve": "Prepare students for the world of work with Generative AI.",
-    "where_the_inspiration_comes_from": "Technology enhancing my practice and my students."
+    "where_the_inspiration_comes_from": "Technology enhancing my practice and my students.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "65",
@@ -842,7 +1069,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Working with phonetic script can be awkward, so maybe ChatGPT can help.",
     "what_i_aim_to_achieve": "I hope to now produce better quality multiple-choice activities and have ChatGPT write the phonetic script for me.",
-    "where_the_inspiration_comes_from": "Having already produced some student activities using ChatGPT I wondered whether it wrote phonetic script."
+    "where_the_inspiration_comes_from": "Having already produced some student activities using ChatGPT I wondered whether it wrote phonetic script.",
+    "theme": "Language & Literature",
+    "tags": []
   },
   {
     "idea_number": "66",
@@ -855,7 +1084,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Using ChatGPT to discover conceptual classes in UML diagram class.",
     "what_i_aim_to_achieve": "Students have difficulties discovering conceptual classes in their first UML class diagrams. ChatGPT can give a list of conceptual classes from a natural language text.",
-    "where_the_inspiration_comes_from": "ChatGPT can generate code for different programming languages, and it also can generate XMI specifications."
+    "where_the_inspiration_comes_from": "ChatGPT can generate code for different programming languages, and it also can generate XMI specifications.",
+    "theme": "Language & Literature",
+    "tags": []
   },
   {
     "idea_number": "67",
@@ -868,7 +1099,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "ChatGPT will help international students of social sciences majors simplify complicated and often abstract concepts into short poems in English and their mother tongues.",
     "what_i_aim_to_achieve": "To help students reach a universal and in-depth understanding of the concepts and to emphasise the universality of knowledge despite the existing divide in the Global North and South knowledge.",
-    "where_the_inspiration_comes_from": "The desire to help students learn and the belief in the universality nature of knowledge."
+    "where_the_inspiration_comes_from": "The desire to help students learn and the belief in the universality nature of knowledge.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "68",
@@ -881,7 +1116,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "We know that asking students to provide peer feedback promotes reflection and student responsibility for learning. I used AI to generate examples for a newly introduced research proposal assessment.",
     "what_i_aim_to_achieve": "The ultimate aim is to use AI to promote active student engagement, develop critical thinking skills, model academic integrity, and introduce students to AI tools.",
-    "where_the_inspiration_comes_from": "This use of generative AI was based on my desire to create active learning opportunities and my own experiences of using generative AI."
+    "where_the_inspiration_comes_from": "This use of generative AI was based on my desire to create active learning opportunities and my own experiences of using generative AI.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "69",
@@ -894,7 +1133,11 @@
     "tools_used": "ChatGPT, Dall-E 2, Pages (MacOS), Google Play Books Partner Center",
     "my_idea": "How to write and publish a book using AI.",
     "what_i_aim_to_achieve": "Write and publish a book (retaining copyrights).",
-    "where_the_inspiration_comes_from": "University of Leeds"
+    "where_the_inspiration_comes_from": "University of Leeds",
+    "theme": "Language & Literature",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "70",
@@ -907,7 +1150,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Explore the application of artificial intelligence in promoting students' personalized learning. Combined with the existing learning aid application model, AI, data analysis and statistics to provide students with targeted courses, tasks, evaluation and feedback.",
     "what_i_aim_to_achieve": "Artificial intelligence can be used to develop students' personalized learning, which includes the learning new knowledge and evaluating what they have learned.",
-    "where_the_inspiration_comes_from": "This idea is based on my personal ChatGPT Support Tutor contributed to this collection by Chrissi Nerantzi."
+    "where_the_inspiration_comes_from": "This idea is based on my personal ChatGPT Support Tutor contributed to this collection by Chrissi Nerantzi.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "71",
@@ -920,7 +1167,9 @@
     "tools_used": "ChatGPT, HRI",
     "my_idea": "Explore the application of artificial intelligence in helping special children develop social, linguistic and logical thinking skills.",
     "what_i_aim_to_achieve": "On the basis of human-computer interaction technology, artificial intelligence based on robots is further developed. At present, NAO and other related auxiliary robots have been used to help treat autistic children.",
-    "where_the_inspiration_comes_from": "When I was preparing my assignment about ASD, I read the literature about ASD intervention, and the man-machine interaction technology mentioned in the article reminded me of artificial intelligence."
+    "where_the_inspiration_comes_from": "When I was preparing my assignment about ASD, I read the literature about ASD intervention, and the man-machine interaction technology mentioned in the article reminded me of artificial intelligence.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "72",
@@ -933,7 +1182,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Use artificial intelligence to talk and share. AI can keep your secret like a tree hole.",
     "what_i_aim_to_achieve": "Students talk to artificial intelligence, express their thoughts that they don't want to tell others, and relieve the pressure in the learning process.",
-    "where_the_inspiration_comes_from": "In the process of learning, students sometimes have some pressure, but because of shyness or other reasons, they are unwilling to share it with friends, teachers, parents and psychologists."
+    "where_the_inspiration_comes_from": "In the process of learning, students sometimes have some pressure, but because of shyness or other reasons, they are unwilling to share it with friends, teachers, parents and psychologists.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "73",
@@ -946,7 +1197,9 @@
     "tools_used": "ChatGPT, DALL·E 2, Speechify, iZotope oZone",
     "my_idea": "A podcast that is completely AI generated, from content to audio.",
     "what_i_aim_to_achieve": "To really show that AI can be used as an interactive vocational learning tool.",
-    "where_the_inspiration_comes_from": "A background in Music Production and a love of vocational assessment."
+    "where_the_inspiration_comes_from": "A background in Music Production and a love of vocational assessment.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "74",
@@ -959,7 +1212,11 @@
     "tools_used": "ChatGPT, OpenAI's Playground",
     "my_idea": "Using AI to generate humorous text – with a serious purpose",
     "what_i_aim_to_achieve": "This develops students' awareness of different genres of writing – but using absurd situations.",
-    "where_the_inspiration_comes_from": "I have long found this mismatch between form and content – the serious 'genre-correct' style versus the bizarre situations - is an enjoyable, relaxed and effective way of exploring style and structure in the written language."
+    "where_the_inspiration_comes_from": "I have long found this mismatch between form and content – the serious 'genre-correct' style versus the bizarre situations - is an enjoyable, relaxed and effective way of exploring style and structure in the written language.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "75",
@@ -972,7 +1229,11 @@
     "tools_used": "Canva",
     "my_idea": "Student partnership and the benefits of involving students in co-creating content have been well-documented. Could ChatGPT assist the language learners in this process?",
     "what_i_aim_to_achieve": "I have been involving my language students in the co-creation process: from designing quizzes in MS Form for revision purposes, to collaborating in devising mind maps for consolidation of knowledge.",
-    "where_the_inspiration_comes_from": "The benefits of involving students in co-creating content have been of interest. I have been inspired in particular by the work of Professor Bovill."
+    "where_the_inspiration_comes_from": "The benefits of involving students in co-creating content have been of interest. I have been inspired in particular by the work of Professor Bovill.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Visual"
+    ]
   },
   {
     "idea_number": "76",
@@ -985,7 +1246,9 @@
     "tools_used": "ChatPDF",
     "my_idea": "Interrogate primary sources using ChatPDF.",
     "what_i_aim_to_achieve": "A creative way to interrogate a primary source using ChatPDF. You can ask questions off a primary source and it will reference the page where the evidence is located.",
-    "where_the_inspiration_comes_from": "Nayini Keshiki University of Surrey."
+    "where_the_inspiration_comes_from": "Nayini Keshiki University of Surrey.",
+    "theme": "Creative Arts",
+    "tags": []
   },
   {
     "idea_number": "77",
@@ -998,7 +1261,11 @@
     "tools_used": "ChatGPT, VLE of your choice",
     "my_idea": "Engage and guide students in the use of ChatGPT through its inclusion in the blended learning approach. Create a pre-session activity where students use ChatGPT to answer a question.",
     "what_i_aim_to_achieve": "To help students understand how ChatGPT can be used as a tool to help them explore and understand programme related topics/themes.",
-    "where_the_inspiration_comes_from": "From the idea of using ChatGPT as a starting point for exploration."
+    "where_the_inspiration_comes_from": "From the idea of using ChatGPT as a starting point for exploration.",
+    "theme": "Teaching Support",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "78",
@@ -1011,7 +1278,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Students are asked to research an academic from the teaching department using ChatGPT. The output generated is then compared with the academic's profile page on the university's website.",
     "what_i_aim_to_achieve": "To demonstrate the importance of (i) using AI as a tool, not a solution, and (ii) of critically engaging with output.",
-    "where_the_inspiration_comes_from": "AI in the form of chatbots is not going anywhere. As educators, we must prepare students to use such tools effectively and responsibly."
+    "where_the_inspiration_comes_from": "AI in the form of chatbots is not going anywhere. As educators, we must prepare students to use such tools effectively and responsibly.",
+    "theme": "Research & Inquiry",
+    "tags": []
   },
   {
     "idea_number": "79",
@@ -1024,7 +1293,13 @@
     "tools_used": "Stable Diffusion, PowerPoint, Google Slides, Canva",
     "my_idea": "Writing a short story is a highly formative activity because it requires imagination, creativity, and fantasy, while also applying computational and logical thinking in creating the story's structure. After obtaining the story, it's interesting to use TTI systems to create narrative illustrations.",
     "what_i_aim_to_achieve": "Step 1: Invent and write a short story about artificial intelligence to explore with imagination the scenarios of using intelligent technologies.",
-    "where_the_inspiration_comes_from": "During the summer of 2022, I was working on developing STEAM experiences to 'live' the ALGORITHM definition."
+    "where_the_inspiration_comes_from": "During the summer of 2022, I was working on developing STEAM experiences to 'live' the ALGORITHM definition.",
+    "theme": "Creative Arts",
+    "tags": [
+      "Visual",
+      "Textual",
+      "Functional"
+    ]
   },
   {
     "idea_number": "80",
@@ -1037,7 +1312,9 @@
     "tools_used": "ChatGPT, DALL·E 2",
     "my_idea": "Our idea is the Life of a Camel in an Icy Environment. As we all know, the camel is a desert animal. But we wanted to know: Can a camel survive in an icy environment?",
     "what_i_aim_to_achieve": "The objective of our idea is to find alternative living solutions for animals. The purpose of our idea is to give a reality check to humans about climate change.",
-    "where_the_inspiration_comes_from": "This idea suddenly came to our mind while using and searching for different innovative ideas in the DALL.E 2 application with students."
+    "where_the_inspiration_comes_from": "This idea suddenly came to our mind while using and searching for different innovative ideas in the DALL.E 2 application with students.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "81",
@@ -1050,7 +1327,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Utilizing AI to expose writing students to various stylistic and rhetorical choices available to them at the unit of the sentence and foster critical and creative thinking about the relationship between style and meaning.",
     "what_i_aim_to_achieve": "Writing scholars have defined style as 'the deployment of rhetorical resources in written discourse, to create and express meaning'. Could AI writing tools assist students in understanding and deploying syntactic structures as rhetorical resources?",
-    "where_the_inspiration_comes_from": "Drawing from long-standing practices in style instruction, my students have imitated sentences from accomplished writers, practiced sentence-combining exercises."
+    "where_the_inspiration_comes_from": "Drawing from long-standing practices in style instruction, my students have imitated sentences from accomplished writers, practiced sentence-combining exercises.",
+    "theme": "Language & Literature",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "82",
@@ -1063,7 +1344,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Challenging the veracity, accuracy or suitability of ChatGPT responses to an assessment title as an academic skills task.",
     "what_i_aim_to_achieve": "Rather than focus on telling students to avoid using AI tools such as ChatGPT or spelling out what punishments the use might incur, I want to encourage critical thinking and challenge the tool's reliability and accuracy.",
-    "where_the_inspiration_comes_from": "I was an English for Academic Purposes lecturer for years and taught students to critique various sources."
+    "where_the_inspiration_comes_from": "I was an English for Academic Purposes lecturer for years and taught students to critique various sources.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "83",
@@ -1076,7 +1359,9 @@
     "tools_used": "This is a speculative pedagogy project that aims to explore the relationship between traditional Design thinking methods and AI.",
     "my_idea": "Design thinking as synthetic combinatory creativity: Revisiting Mashup, Mosaic Texts and Morphological Matrixes through AI.",
     "what_i_aim_to_achieve": "An exploration of combinatory creativity methods through AI, exploring the intelligence and logic at work in combinatory Design thinking methods.",
-    "where_the_inspiration_comes_from": "The inspiration came from a comment that the art/creativity in AI-generated content was in selecting prompts."
+    "where_the_inspiration_comes_from": "The inspiration came from a comment that the art/creativity in AI-generated content was in selecting prompts.",
+    "theme": "Creative Arts",
+    "tags": []
   },
   {
     "idea_number": "84",
@@ -1089,7 +1374,11 @@
     "tools_used": "BlueWillow (accessed on Discord)",
     "my_idea": "We now have access to multiple applications to generate text and/or images. Getting different software to respond to the same prompt can be used as a stimulus for discussion.",
     "what_i_aim_to_achieve": "I aim to use new AI tools responsibly with students within the curriculum. Two specific aims run in parallel here: encouraging critical analysis and debate, and helping them to develop a more sophisticated appreciation of what this software can (and cannot) do.",
-    "where_the_inspiration_comes_from": "This is an update of a 'pre-digital' exercise where students compare different accounts of a particular study or theory from different textbooks or other sources."
+    "where_the_inspiration_comes_from": "This is an update of a 'pre-digital' exercise where students compare different accounts of a particular study or theory from different textbooks or other sources.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "85",
@@ -1102,7 +1391,13 @@
     "tools_used": "ChatGPT",
     "my_idea": "To ask 2nd-year Natural Hazard Management students to have a 'conversation' with a text-generative AI tool such as ChatGPT to help them to refine their interview questions and technique.",
     "what_i_aim_to_achieve": "To allow students to refine their questioning skills and critically reflect on whether the type of questions they are asking elicit the type of data they would require for their assignments.",
-    "where_the_inspiration_comes_from": "@DanFitzTweets on Twitter posted that they had had a 'conversation' with ChatGPT in the style of Winston Churchill."
+    "where_the_inspiration_comes_from": "@DanFitzTweets on Twitter posted that they had had a 'conversation' with ChatGPT in the style of Winston Churchill.",
+    "theme": "Research & Inquiry",
+    "tags": [
+      "Textual",
+      "Conversational",
+      "Functional"
+    ]
   },
   {
     "idea_number": "86",
@@ -1115,7 +1410,9 @@
     "tools_used": "ChatGPT, Google Docs, Learning management system",
     "my_idea": "Create PBL scenarios with the help of ChatGPT based on specific prompts by educators and/or students to enable inquiry based learning.",
     "what_i_aim_to_achieve": "To focus thinking on important elements of a scenario that will provide the parameters and build in potential challenges and complexity.",
-    "where_the_inspiration_comes_from": "The use of PBL is still widely under-used to boost collaborative learning."
+    "where_the_inspiration_comes_from": "The use of PBL is still widely under-used to boost collaborative learning.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "87",
@@ -1128,7 +1425,9 @@
     "tools_used": "ChatGPT, Google Docs, Learning management system",
     "my_idea": "Have students maintain a query log with generative AI where each week, they ask a set of questions and record their questions and answers.",
     "what_i_aim_to_achieve": "I want students to practice prompting and observe the kinds of answers and ways iterative questioning can create different answers.",
-    "where_the_inspiration_comes_from": "The work of Warren Berger and the Right Question Institute has me thinking a lot of about the questions we ask."
+    "where_the_inspiration_comes_from": "The work of Warren Berger and the Right Question Institute has me thinking a lot of about the questions we ask.",
+    "theme": "Research & Inquiry",
+    "tags": []
   },
   {
     "idea_number": "88",
@@ -1141,7 +1440,12 @@
     "tools_used": "ChatGPT, Sakai platform blog",
     "my_idea": "Multi-objective learning supported by AI. Students were asked to use an AI tool (ChatGPT) to source explanations of two philosophical concepts relevant to the course.",
     "what_i_aim_to_achieve": "Understanding of complex fundamental concepts related to the course material. Simultaneously, it introduced another important theme in the course: affective responses to technology.",
-    "where_the_inspiration_comes_from": "The pervasive theme of affect in the course curriculum borrows from the principles of Archaeologies of the Heart."
+    "where_the_inspiration_comes_from": "The pervasive theme of affect in the course curriculum borrows from the principles of Archaeologies of the Heart.",
+    "theme": "Teaching Support",
+    "tags": [
+      "Textual",
+      "Functional"
+    ]
   },
   {
     "idea_number": "89",
@@ -1154,7 +1458,9 @@
     "tools_used": "DALL·E 2",
     "my_idea": "Depicting an emotion. Students play a board game with their creations.",
     "what_i_aim_to_achieve": "Motivation, inspiration & creativity, and empathy.",
-    "where_the_inspiration_comes_from": "Dixit! board game. One player is the storyteller for each turn and looks at the images on the 6 cards in his/her hand."
+    "where_the_inspiration_comes_from": "Dixit! board game. One player is the storyteller for each turn and looks at the images on the 6 cards in his/her hand.",
+    "theme": "Creative Arts",
+    "tags": []
   },
   {
     "idea_number": "90",
@@ -1167,7 +1473,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Using AI tools such as ChatGPT to facilitate reflection on critical thinking skills and their development in learners.",
     "what_i_aim_to_achieve": "ChatGPT and similar generative AI tools may provide users with content and information they are seeking. Activities can foster agency in learners enabling them to reflect on their critical thinking capabilities when engaging with AI tools.",
-    "where_the_inspiration_comes_from": "I have used this activity in an HE6 module to raise awareness about ChatGPT's inherent limitations."
+    "where_the_inspiration_comes_from": "I have used this activity in an HE6 module to raise awareness about ChatGPT's inherent limitations.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "91",
@@ -1180,7 +1488,11 @@
     "tools_used": "Scribble Diffusion",
     "my_idea": "Develop peer to peer feedback literacy using personal portraits. Students will work in pairs. They are invited to draw another student using the AI tool.",
     "what_i_aim_to_achieve": "To develop feedback literacy and boost confidence in students to provide feedback to each other.",
-    "where_the_inspiration_comes_from": "I have used this approach in a class many times simply using pen(cil) and paper. This could take it to the next level?"
+    "where_the_inspiration_comes_from": "I have used this approach in a class many times simply using pen(cil) and paper. This could take it to the next level?",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "92",
@@ -1193,7 +1505,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "In most cases, shadow teachers are brought into mainstream schools to provide support to students with special needs. One effective tool that is often used to shape inappropriate behaviors in children with autism or ADHD is the use of social stories.",
     "what_i_aim_to_achieve": "According to Carol Gray (1998), social stories provide 'hidden' information to enable people with ASD to understand social codes and enhance their social cognition and understanding.",
-    "where_the_inspiration_comes_from": "As a special education mentor at my school I saw that many times shadow teachers need special knowledge to support their students."
+    "where_the_inspiration_comes_from": "As a special education mentor at my school I saw that many times shadow teachers need special knowledge to support their students.",
+    "theme": "Teaching Support",
+    "tags": [
+      "Functional"
+    ]
   },
   {
     "idea_number": "93",
@@ -1206,7 +1522,9 @@
     "tools_used": "ChatGPT",
     "my_idea": "Use AI to let students create a resource about a specific topic. Then in class critically analyse the quality of the resource.",
     "what_i_aim_to_achieve": "Dig deeper, what are critiques of the points made? Who are the authors of the various viewpoints? Where are the ideas coming from?",
-    "where_the_inspiration_comes_from": "Ask ChatGPT to write about VARC Learning Styles - the answer is solely positive treating learning styles as accepted model, however they have no scientific foundation."
+    "where_the_inspiration_comes_from": "Ask ChatGPT to write about VARC Learning Styles - the answer is solely positive treating learning styles as accepted model, however they have no scientific foundation.",
+    "theme": "Critical Literacy",
+    "tags": []
   },
   {
     "idea_number": "94",
@@ -1219,7 +1537,11 @@
     "tools_used": "ChatGPT",
     "my_idea": "Writing songs using ChatGPT",
     "what_i_aim_to_achieve": "The idea that creativity is being 'killed' by AI is prevalent across my campus. The goal is to not only ask AI to write you a song based on your ideas - but it will also be translated.",
-    "where_the_inspiration_comes_from": "When asked to 'play with AI' our Dean of Science decided to jump into a tool and write a song then translate it."
+    "where_the_inspiration_comes_from": "When asked to 'play with AI' our Dean of Science decided to jump into a tool and write a song then translate it.",
+    "theme": "Creative Arts",
+    "tags": [
+      "Textual"
+    ]
   },
   {
     "idea_number": "95",
@@ -1232,7 +1554,9 @@
     "tools_used": "ChatGPT, Elicit",
     "my_idea": "Allow students to write their end-of-course theses with the help of artificial intelligence.",
     "what_i_aim_to_achieve": "The goal is to allow students to research, experience and understand the advantages and disadvantages of using artificial intelligence for research and professional needs.",
-    "where_the_inspiration_comes_from": "I believe that students cannot be restricted from using artificial intelligence tools in writing papers and research."
+    "where_the_inspiration_comes_from": "I believe that students cannot be restricted from using artificial intelligence tools in writing papers and research.",
+    "theme": "Language & Literature",
+    "tags": []
   },
   {
     "idea_number": "96",
@@ -1245,7 +1569,12 @@
     "tools_used": "Canva, A series of experiential practical strategies to positively utilise AI tools",
     "my_idea": "In light of AI, we are developing a 5 stage writing and inquiry model that will help lecturers to support student academic writing and critical inquiry across multiple disciplines.",
     "what_i_aim_to_achieve": "We want to explore ways to sustain the role of writing in learning and assessments. We aim to support academic staff to ensure the continuation of student writing and inquiry.",
-    "where_the_inspiration_comes_from": "Richardson (2005) observes that 'styles of writing are neither fixed nor neutral, but rather reflect the historically shifting domination of particular schools or paradigms'."
+    "where_the_inspiration_comes_from": "Richardson (2005) observes that 'styles of writing are neither fixed nor neutral, but rather reflect the historically shifting domination of particular schools or paradigms'.",
+    "theme": "Critical Literacy",
+    "tags": [
+      "Visual",
+      "Textual"
+    ]
   },
   {
     "idea_number": "97",
@@ -1258,7 +1587,12 @@
     "tools_used": "ChatGPT, DALL·E 2, i-Rubric",
     "my_idea": "Provide peer-to-peer feedback using AI-generated art-based content to stimulate peer/group discussion and reflection.",
     "what_i_aim_to_achieve": "A deep and open discussion on the results achieved by individuals/groups, and on the path followed during a learning experience, enriching the feedback with AI-based images.",
-    "where_the_inspiration_comes_from": "Providing peer-to-peer feedback can be challenging and emotionally demanding. Art can support this activity mediating it through tools that focus on the message in a creative way."
+    "where_the_inspiration_comes_from": "Providing peer-to-peer feedback can be challenging and emotionally demanding. Art can support this activity mediating it through tools that focus on the message in a creative way.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Visual",
+      "Functional"
+    ]
   },
   {
     "idea_number": "98",
@@ -1271,7 +1605,13 @@
     "tools_used": "DALL·E 2, Midjourney, or any text-to-image generative AI tool",
     "my_idea": "Academic articles, research books and other similar content can be boring. Instead, designing the same content as a comic strip can make such academic content more engaging.",
     "what_i_aim_to_achieve": "Academic information presented with comic book visuals can be both storytelling and easier to remember.",
-    "where_the_inspiration_comes_from": "I used to read a lot of comics when I was a kid and I still read them whenever I can ;)"
+    "where_the_inspiration_comes_from": "I used to read a lot of comics when I was a kid and I still read them whenever I can ;)",
+    "theme": "Creative Arts",
+    "tags": [
+      "Visual",
+      "Textual",
+      "Functional"
+    ]
   },
   {
     "idea_number": "99",
@@ -1284,7 +1624,9 @@
     "tools_used": "DALL·E 2, Stability AI, Deep AI",
     "my_idea": "Con base en la IA, crear imágenes que recreen la vida cotidiana y la educación en la época del porfiriato.",
     "what_i_aim_to_achieve": "A veces se piensa que la IA es una herramienta que sólo puede utilizarse para la enseñanza de las ciencias naturales o las ingenierías, quedando las ciencias sociales y las humanidades al margen.",
-    "where_the_inspiration_comes_from": "La inspiración provino de un colega de la Universidad de Leeds que nos compartió una presentación de PowerPoint en la que generó todas las imágenes de la misma con base en una herramienta de IA."
+    "where_the_inspiration_comes_from": "La inspiración provino de un colega de la Universidad de Leeds que nos compartió una presentación de PowerPoint en la que generó todas las imágenes de la misma con base en una herramienta de IA.",
+    "theme": "Teaching Support",
+    "tags": []
   },
   {
     "idea_number": "100",
@@ -1297,7 +1639,12 @@
     "tools_used": "ChatGPT",
     "my_idea": "Using ChatGPT-4 as a co-authoring tool to generate role-play scenarios and support with formative assessment activities.",
     "what_i_aim_to_achieve": "I use role-play activities quite often in my pedagogical approaches as it helps my students to think critically about a complex subject matter and explore their problem solving skills.",
-    "where_the_inspiration_comes_from": "The students found it quite engaging and effective to assess their problem-solving skills. Upon reflection on their performances, the students requested for more role-play exercises."
+    "where_the_inspiration_comes_from": "The students found it quite engaging and effective to assess their problem-solving skills. Upon reflection on their performances, the students requested for more role-play exercises.",
+    "theme": "Assessment & Feedback",
+    "tags": [
+      "Conversational",
+      "Functional"
+    ]
   },
   {
     "idea_number": "101",
@@ -1310,6 +1657,10 @@
     "tools_used": "Any AI tool",
     "my_idea": "Invite students to think about metaphors for AI: 'When AI is working for us, it is like…' and 'When AI is working against us, it is like…'",
     "what_i_aim_to_achieve": "Find analogies for AI that can help us discuss its impacts and also to make the discussion light/fun at first, while deepening our understanding of it at the same time.",
-    "where_the_inspiration_comes_from": "My mom! She told me 'AI is like fast/junk food' and it was such a good metaphor!"
+    "where_the_inspiration_comes_from": "My mom! She told me 'AI is like fast/junk food' and it was such a good metaphor!",
+    "theme": "Teaching Support",
+    "tags": [
+      "Functional"
+    ]
   }
 ]

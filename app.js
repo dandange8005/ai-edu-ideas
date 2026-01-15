@@ -12,13 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let searchQuery = '';
 
     // Constants
-    const CATEGORY_KEYWORDS = {
-        'Assessment': ['assessment', 'feedback', 'grading', 'rubric', 'exam', 'marking', 'peer review', 'quiz'],
-        'Creative': ['poetry', 'art', 'metaphor', 'storytelling', 'comic', 'music', 'song', 'draw', 'design', 'visual', 'creative', 'meme', 'game'],
-        'Literacy': ['ethics', 'critical', 'bias', 'authorship', 'integrity', 'reliability', 'veracity', 'analyze', 'truth', 'fact', 'literacy'],
-        'Tech': ['programming', 'code', 'java', 'api', 'software', 'app', 'bot', 'algorithm', 'data', 'technical', 'python'],
-        'Research': ['research', 'data', 'qualitative', 'literature', 'thesis', 'inquiry', 'scientist', 'scholarly'],
-        'Teaching': ['pedagogy', 'curriculum', 'scenario', 'case study', 'learner', 'student', 'educator', 'classroom', 'workshop', 'instructional', 'lesson']
+    // Modality Tag Icons/Emoji colors
+    const MODALITY_STYLES = {
+        'Visual': 'text-cyan-400 bg-cyan-400/10 border-cyan-400/20',
+        'Textual': 'text-amber-400 bg-amber-400/10 border-amber-400/20',
+        'Conversational': 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
+        'Functional': 'text-rose-400 bg-rose-400/10 border-rose-400/20'
     };
 
     // Normalized tag mapping - maps raw context phrases to clean tags
@@ -91,8 +90,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const contextTags = parseContextTags(idea.context);
                 return {
                     ...idea,
-                    category: determineCategory(idea),
-                    tags: contextTags
+                    category: idea.theme || 'Teaching Support',
+                    contextTags: contextTags,
+                    modalityTags: idea.tags || []
                 };
             });
 
@@ -106,27 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * Determines which category an idea belongs to based on keywords
-     */
-    function determineCategory(idea) {
-        const fullText = (idea.title + ' ' + idea.my_idea + ' ' + (idea.context || '')).toLowerCase();
-
-        for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
-            if (keywords.some(kw => fullText.includes(kw.toLowerCase()))) {
-                return category;
-            }
-        }
-        return 'Teaching'; // Default category
-    }
-
-    /**
      * Renders all unique context tags (limited to top tags for usability)
      */
     function renderTags() {
         // Count tag frequency
         const tagCounts = {};
         ideas.forEach(idea => {
-            idea.tags.forEach(tag => {
+            idea.contextTags.forEach(tag => {
                 tagCounts[tag] = (tagCounts[tag] || 0) + 1;
             });
         });
@@ -193,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Tag filter (Any match - OR logic)
             const matchesTags = selectedTags.size === 0 ||
-                Array.from(selectedTags).some(tag => idea.tags.includes(tag));
+                Array.from(selectedTags).some(tag => idea.contextTags.includes(tag));
 
             // Search filter
             const searchStr = (idea.title + ' ' + idea.author + ' ' + idea.my_idea).toLowerCase();
@@ -227,16 +213,22 @@ document.addEventListener('DOMContentLoaded', () => {
             const initials = idea.author ? idea.author.split(' ').map(n => n[0]).join('').substring(0, 2) : 'AI';
 
             // Build context tag badges (max 2)
-            const tagBadges = idea.tags.slice(0, 2).map(tag =>
+            const tagBadges = idea.contextTags.slice(0, 2).map(tag =>
                 `<span class="text-[9px] px-2 py-0.5 bg-violet-500/10 border border-violet-500/20 rounded-md text-violet-400/80">${tag}</span>`
             ).join('');
+
+            // Build modality tag badges
+            const modalityBadges = idea.modalityTags.map(tag => {
+                const style = MODALITY_STYLES[tag] || 'bg-white/5 border-white/10 text-white/40';
+                return `<span class="text-[8px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded-sm border ${style}">${tag}</span>`;
+            }).join('');
 
             card.innerHTML = `
                 <div class="idea-card-inner">
                     <div class="flex items-center justify-between mb-4">
                         <span class="text-xs font-black text-white/20 italic tracking-tighter group-hover:text-violet-500/50 transition-colors">#${idea.idea_number}</span>
                         <div class="flex gap-1 items-center">
-                            ${idea.tools_used ? `<span class="text-[10px] px-2 py-0.5 bg-white/5 border border-white/10 rounded-md text-white/40">${idea.tools_used.split(',')[0].trim()}</span>` : ''}
+                            ${modalityBadges}
                         </div>
                     </div>
                     
@@ -297,9 +289,18 @@ document.addEventListener('DOMContentLoaded', () => {
         tagsContainer.appendChild(catBadge);
 
         // Add Context tags
-        idea.tags.forEach(tag => {
+        idea.contextTags.forEach(tag => {
             const badge = document.createElement('span');
             badge.className = 'px-3 py-1 bg-white/5 border border-white/10 text-white/60 rounded-full text-xs';
+            badge.textContent = tag;
+            tagsContainer.appendChild(badge);
+        });
+
+        // Add Modality tags
+        idea.modalityTags.forEach(tag => {
+            const style = MODALITY_STYLES[tag] || 'bg-white/5 border-white/10 text-white/40';
+            const badge = document.createElement('span');
+            badge.className = `px-3 py-1 ${style} rounded-full text-xs font-bold uppercase tracking-wider`;
             badge.textContent = tag;
             tagsContainer.appendChild(badge);
         });

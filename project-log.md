@@ -1,5 +1,26 @@
 # Project Log: AI Edu Ideas
 
+## 2026-01-15
+- **Web App Foundation & UI/UX**:
+    - Initialized the main web application with `index.html`, `app.js`, and `style.css` (Premium Interactive Showcase).
+    - Integrated `UI/UX Pro Max` workflow and design resources for visual excellence.
+    - Standardized the JSON structure for the ideas dataset to ensure consistent rendering.
+- **CSS Refactoring & Modernization**:
+    - Refactored `style.css` to convert Tailwind `@apply` directives into explicit, high-performance CSS.
+    - Fixed `line-clamp` compatibility issue for better browser support.
+    - Added modular documentation comments to the stylesheet.
+- **Data Enrichment & Advanced Categorization**:
+    - Developed `scripts/enrich_ideas.py` to classify ideas using NLP heuristics (Themes & Modality Tags).
+    - Introduced 7 high-level Themes (e.g., Critical Literacy, Creative Arts) and 4 Modality Tags (Visual, Textual, etc.).
+    - Updated `index.html` and `app.js` to utilize these pre-enriched fields, improving filtering performance and UX.
+- **UI/UX Refinement**:
+    - Polished the global "Glassmorphism" theme.
+    - Refined modal backdrop visibility (opacity 80% → 40%, blur XL → MD) for better context awareness.
+    - Added decorative modality badges to idea cards for quick visual identification.
+- **Project Infrastructure**:
+    - Added a `things-to-do.md` list to track pending features and fixes.
+    - Created a simplified, user-friendly `README.md`.
+
 ## 2026-01-14
 - **Successful JSON Extraction**:
     - Developed `extract_ideas_v3.py` to robustly parse the 101 ideas from the Markdown export.
