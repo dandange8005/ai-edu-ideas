@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>101 Creative Ideas for Using AI in Education</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        heading: ['Poppins', 'sans-serif'],
+                        body: ['Open Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#2563EB',
+                        secondary: '#3B82F6',
+                        cta: '#F97316',
+                        background: '#F8FAFC',
+                        text: '#1E293B',
+                        border: '#E2E8F0',
+                        muted: '#64748B',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background text-text min-h-screen">
+    <!-- Header -->
+    <header class="bg-white border-b border-border sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div>
+                    <h1 class="text-2xl md:text-3xl font-bold text-text">101 Creative Ideas</h1>
+                    <p class="text-muted text-sm md:text-base">Using AI in Education</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span class="text-sm text-muted">Filter by context:</span>
+                    <select id="contextFilter" class="px-3 py-2 border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer">
+                        <option value="all">All Contexts</option>
+                        <option value="education">Education</option>
+                        <option value="research">Research</option>
+                        <option value="professional">Professional Development</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Stats Bar -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white rounded-xl p-4 border border-border">
+                <p class="text-3xl font-bold text-primary">101</p>
+                <p class="text-sm text-muted">Total Ideas</p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-border">
+                <p class="text-3xl font-bold text-primary">50+</p>
+                <p class="text-sm text-muted">Contributors</p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-border">
+                <p class="text-3xl font-bold text-primary">20+</p>
+                <p class="text-sm text-muted">Institutions</p>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-border">
+                <p class="text-3xl font-bold text-primary">10+</p>
+                <p class="text-sm text-muted">AI Tools</p>
+            </div>
+        </div>
+
+        <!-- Ideas Grid -->
+        <div id="ideasGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Idea Card 1 -->
+            <article class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-200 cursor-pointer overflow-hidden border border-border">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">#01</span>
+                        <span class="text-xs text-muted">ChatGPT</span>
+                    </div>
+                    <h3 class="font-heading font-semibold text-lg mb-2 text-text">Generating Feedback Poetry</h3>
+                    <p class="text-muted text-sm mb-4 line-clamp-3">Exploring the use of AI feedback poetry to engage students with the feedback they receive and give in new ways.</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-border">
+                        <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
+                            <span class="text-primary text-xs font-semibold">CN</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-text">Chrissi Nerantzi</p>
+                            <p class="text-xs text-muted">University of Leeds</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background px-6 py-3">
+                    <span class="text-xs text-muted">Education, Professional Development</span>
+                </div>
+            </article>
+
+            <!-- Idea Card 2 -->
+            <article class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-200 cursor-pointer overflow-hidden border border-border">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">#15</span>
+                        <span class="text-xs text-muted">ChatGPT</span>
+                    </div>
+                    <h3 class="font-heading font-semibold text-lg mb-2 text-text">Building Thinking Classrooms</h3>
+                    <p class="text-muted text-sm mb-4 line-clamp-3">Using AI to create thinking tasks that promote deep mathematical reasoning and collaborative problem-solving.</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-border">
+                        <div class="w-8 h-8 bg-secondary/10 rounded-full flex items-center justify-center">
+                            <span class="text-secondary text-xs font-semibold">JM</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-text">James Morrison</p>
+                            <p class="text-xs text-muted">Manchester Metropolitan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background px-6 py-3">
+                    <span class="text-xs text-muted">Mathematics Education</span>
+                </div>
+            </article>
+
+            <!-- Idea Card 3 -->
+            <article class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-200 cursor-pointer overflow-hidden border border-border">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">#27</span>
+                        <span class="text-xs text-muted">DALL-E, Midjourney</span>
+                    </div>
+                    <h3 class="font-heading font-semibold text-lg mb-2 text-text">AI-Generated Visual Metaphors</h3>
+                    <p class="text-muted text-sm mb-4 line-clamp-3">Creating visual representations of abstract concepts to help students understand complex theories through imagery.</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-border">
+                        <div class="w-8 h-8 bg-cta/10 rounded-full flex items-center justify-center">
+                            <span class="text-cta text-xs font-semibold">SK</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-text">Sarah Kim</p>
+                            <p class="text-xs text-muted">Stanford University</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background px-6 py-3">
+                    <span class="text-xs text-muted">Visual Arts, Education</span>
+                </div>
+            </article>
+
+            <!-- Idea Card 4 -->
+            <article class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-200 cursor-pointer overflow-hidden border border-border">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">#42</span>
+                        <span class="text-xs text-muted">Claude, GPT-4</span>
+                    </div>
+                    <h3 class="font-heading font-semibold text-lg mb-2 text-text">Personalized Learning Paths</h3>
+                    <p class="text-muted text-sm mb-4 line-clamp-3">Developing adaptive curricula that respond to individual student progress and learning preferences in real-time.</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-border">
+                        <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
+                            <span class="text-primary text-xs font-semibold">RP</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-text">Rachel Patel</p>
+                            <p class="text-xs text-muted">MIT Media Lab</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background px-6 py-3">
+                    <span class="text-xs text-muted">EdTech, Research</span>
+                </div>
+            </article>
+
+            <!-- Idea Card 5 -->
+            <article class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-200 cursor-pointer overflow-hidden border border-border">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">#58</span>
+                        <span class="text-xs text-muted">Whisper, ChatGPT</span>
+                    </div>
+                    <h3 class="font-heading font-semibold text-lg mb-2 text-text">Multilingual Lecture Transcription</h3>
+                    <p class="text-muted text-sm mb-4 line-clamp-3">Automating lecture transcription and translation to make educational content accessible across language barriers.</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-border">
+                        <div class="w-8 h-8 bg-secondary/10 rounded-full flex items-center justify-center">
+                            <span class="text-secondary text-xs font-semibold">LW</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-text">Lin Wei</p>
+                            <p class="text-xs text-muted">University of Hong Kong</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background px-6 py-3">
+                    <span class="text-xs text-muted">Accessibility, Languages</span>
+                </div>
+            </article>
+
+            <!-- Idea Card 6 -->
+            <article class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-200 cursor-pointer overflow-hidden border border-border">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">#73</span>
+                        <span class="text-xs text-muted">GitHub Copilot</span>
+                    </div>
+                    <h3 class="font-heading font-semibold text-lg mb-2 text-text">AI Pair Programming Mentor</h3>
+                    <p class="text-muted text-sm mb-4 line-clamp-3">Using AI coding assistants as teaching tools to help students learn programming through guided collaboration.</p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-border">
+                        <div class="w-8 h-8 bg-cta/10 rounded-full flex items-center justify-center">
+                            <span class="text-cta text-xs font-semibold">DT</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-medium text-text">David Thompson</p>
+                            <p class="text-xs text-muted">Carnegie Mellon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background px-6 py-3">
+                    <span class="text-xs text-muted">Computer Science, Education</span>
+                </div>
+            </article>
+        </div>
+
+        <!-- Load More Button -->
+        <div class="text-center mt-10">
+            <button class="bg-primary hover:bg-primary/90 text-white font-semibold px-8 py-3 rounded-xl transition-colors duration-200 cursor-pointer">
+                Load More Ideas
+            </button>
+        </div>
+    </main>
+
+    <!-- Detail Modal -->
+    <div id="modal" class="fixed inset-0 z-50 hidden">
+        <!-- Backdrop -->
+        <div id="modalBackdrop" class="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+
+        <!-- Modal Content -->
+        <div class="absolute inset-4 md:inset-10 lg:inset-20 bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between p-6 border-b border-border bg-background">
+                <div class="flex items-center gap-3">
+                    <span id="modalNumber" class="bg-primary/10 text-primary text-sm font-semibold px-4 py-1.5 rounded-full">#01</span>
+                    <span id="modalTools" class="text-sm text-muted">ChatGPT</span>
+                </div>
+                <button id="closeModal" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-border transition-colors cursor-pointer" aria-label="Close modal">
+                    <svg class="w-6 h-6 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="flex-1 overflow-y-auto p-6 md:p-8">
+                <h2 id="modalTitle" class="font-heading text-2xl md:text-3xl font-bold text-text mb-6">Generating Feedback Poetry</h2>
+
+                <!-- Author Info -->
+                <div class="flex items-center gap-4 mb-8 p-4 bg-background rounded-xl">
+                    <div id="modalAvatar" class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                        <span class="text-primary font-semibold">CN</span>
+                    </div>
+                    <div>
+                        <p id="modalAuthor" class="font-medium text-text">Chrissi Nerantzi</p>
+                        <p id="modalInstitution" class="text-sm text-muted">School of Education, University of Leeds</p>
+                        <p id="modalRole" class="text-xs text-muted mt-1">Educator</p>
+                    </div>
+                    <a id="modalContact" href="mailto:c.nerantzi@leeds.ac.uk" class="ml-auto text-primary hover:text-primary/80 text-sm transition-colors">
+                        Contact
+                    </a>
+                </div>
+
+                <!-- Context Tags -->
+                <div class="flex flex-wrap gap-2 mb-8">
+                    <span id="modalContext" class="bg-secondary/10 text-secondary text-sm px-3 py-1 rounded-full">Education, Professional Development</span>
+                </div>
+
+                <!-- Sections -->
+                <div class="space-y-8">
+                    <section>
+                        <h3 class="font-heading font-semibold text-lg text-text mb-3 flex items-center gap-2">
+                            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                            </svg>
+                            The Idea
+                        </h3>
+                        <p id="modalIdea" class="text-muted leading-relaxed">Exploring the use of AI feedback poetry to engage students with the feedback they receive and give in new ways. Evidence suggests that students often don't engage with the feedback they receive. Feedback that has been put together by educators with care.</p>
+                    </section>
+
+                    <section>
+                        <h3 class="font-heading font-semibold text-lg text-text mb-3 flex items-center gap-2">
+                            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                            What I Aim to Achieve
+                        </h3>
+                        <p id="modalAim" class="text-muted leading-relaxed">We know that poetry and storytelling more generally can have connecting powers. Could AI poetry created with human input help educators communicate the key feedback message and also potentially help students engage in peer-to-peer feedback using feedback poetry? After all, feedback works well when it is dialogic. Could it also reduce the amount and time educators spend on providing feedback?</p>
+                    </section>
+
+                    <section>
+                        <h3 class="font-heading font-semibold text-lg text-text mb-3 flex items-center gap-2">
+                            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
+                            Where the Inspiration Comes From
+                        </h3>
+                        <p id="modalInspiration" class="text-muted leading-relaxed">I have used alternative feedback approaches in the past, including audio feedback, which can bring the message alive and can create a real connection between the giver and the receiver. While I was exploring ChatGPT, the idea of feedback poetry emerged at a time I was marking students' work as a way to perhaps engage students in a different way with the feedback they receive and potentially reduce feedback load and time spent on it.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-border mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="text-center">
+                <p class="text-muted text-sm">101 Creative Ideas for Using AI in Education</p>
+                <p class="text-muted text-xs mt-2">A collection of innovative approaches from educators worldwide</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Sample detailed data for ideas
+        const ideasData = {
+            "01": {
+                number: "01",
+                title: "Generating Feedback Poetry",
+                author: "Chrissi Nerantzi",
+                initials: "CN",
+                institution: "School of Education, University of Leeds",
+                role: "Educator",
+                contact: "c.nerantzi@leeds.ac.uk",
+                context: "Education, Professional Development",
+                tools: "ChatGPT",
+                idea: "Exploring the use of AI feedback poetry to engage students with the feedback they receive and give in new ways. Evidence suggests that students often don't engage with the feedback they receive. Feedback that has been put together by educators with care.",
+                aim: "We know that poetry and storytelling more generally can have connecting powers (Moon, 2010; Illingworth, 2022). Could AI poetry created with human input help educators communicate the key feedback message and also potentially help students engage in peer-to-peer feedback using feedback poetry? After all, feedback works well when it is dialogic (Carless, 2017). Could it also reduce the amount and time educators spend on providing feedback?",
+                inspiration: "I have used alternative feedback approaches in the past, including audio feedback, which can bring the message alive and can create a real connection between the giver and the receiver. While I was exploring ChatGPT, the idea of feedback poetry emerged at a time I was marking students' work as a way to perhaps engage students in a different way with the feedback they receive and potentially reduce feedback load and time spent on it. I am trialling it at the moment just with one student."
+            },
+            "15": {
+                number: "15",
+                title: "Building Thinking Classrooms",
+                author: "James Morrison",
+                initials: "JM",
+                institution: "Manchester Metropolitan University",
+                role: "Mathematics Educator",
+                contact: "j.morrison@mmu.ac.uk",
+                context: "Mathematics Education",
+                tools: "ChatGPT",
+                idea: "Using AI to create thinking tasks that promote deep mathematical reasoning and collaborative problem-solving. The approach focuses on generating non-routine problems that cannot be solved through memorized procedures alone.",
+                aim: "To transform traditional mathematics classrooms into dynamic thinking environments where students actively engage with challenging problems. By using AI to generate novel problem scenarios, teachers can focus more on facilitating discussion and less on problem creation.",
+                inspiration: "Inspired by Peter Liljedahl's 'Building Thinking Classrooms' framework and the potential of AI to support teachers in creating rich mathematical tasks that spark curiosity and genuine mathematical thinking."
+            },
+            "27": {
+                number: "27",
+                title: "AI-Generated Visual Metaphors",
+                author: "Sarah Kim",
+                initials: "SK",
+                institution: "Stanford University",
+                role: "Educational Researcher",
+                contact: "skim@stanford.edu",
+                context: "Visual Arts, Education",
+                tools: "DALL-E, Midjourney",
+                idea: "Creating visual representations of abstract concepts to help students understand complex theories through imagery. Using AI image generation to create metaphorical visualizations that make intangible concepts tangible.",
+                aim: "To leverage the power of visual learning by creating AI-generated images that serve as conceptual anchors for difficult-to-understand topics in subjects like physics, philosophy, and abstract mathematics.",
+                inspiration: "Research on dual-coding theory and the observation that many students struggle with abstract concepts. AI image generation offers an unprecedented ability to quickly create custom visualizations tailored to specific learning contexts."
+            },
+            "42": {
+                number: "42",
+                title: "Personalized Learning Paths",
+                author: "Rachel Patel",
+                initials: "RP",
+                institution: "MIT Media Lab",
+                role: "Learning Scientist",
+                contact: "rpatel@media.mit.edu",
+                context: "EdTech, Research",
+                tools: "Claude, GPT-4",
+                idea: "Developing adaptive curricula that respond to individual student progress and learning preferences in real-time. The system analyzes student interactions and adjusts content difficulty, pacing, and presentation style accordingly.",
+                aim: "To create truly personalized education at scale, where each student receives instruction optimized for their unique learning profile, prior knowledge, and goals.",
+                inspiration: "Years of research showing that one-on-one tutoring produces significant learning gains, combined with the potential of AI to approximate personalized instruction for all students regardless of resource constraints."
+            },
+            "58": {
+                number: "58",
+                title: "Multilingual Lecture Transcription",
+                author: "Lin Wei",
+                initials: "LW",
+                institution: "University of Hong Kong",
+                role: "Language Technology Specialist",
+                contact: "linwei@hku.hk",
+                context: "Accessibility, Languages",
+                tools: "Whisper, ChatGPT",
+                idea: "Automating lecture transcription and translation to make educational content accessible across language barriers. This includes real-time captioning and post-lecture translation into multiple languages.",
+                aim: "To democratize access to educational content by removing language barriers. International students and non-native speakers can access lectures in their preferred language, improving comprehension and inclusion.",
+                inspiration: "The challenges faced by international students in English-medium universities and the rapid advancement of AI transcription and translation technologies that now make real-time multilingual support feasible."
+            },
+            "73": {
+                number: "73",
+                title: "AI Pair Programming Mentor",
+                author: "David Thompson",
+                initials: "DT",
+                institution: "Carnegie Mellon University",
+                role: "Computer Science Educator",
+                contact: "dthompson@cs.cmu.edu",
+                context: "Computer Science, Education",
+                tools: "GitHub Copilot",
+                idea: "Using AI coding assistants as teaching tools to help students learn programming through guided collaboration. Rather than just providing answers, the AI is configured to ask Socratic questions and provide hints that lead students to solutions.",
+                aim: "To provide every programming student with access to a patient, always-available coding mentor that helps them develop problem-solving skills rather than dependency on AI-generated code.",
+                inspiration: "The observation that students learn best through pair programming with more experienced developers, and the realization that AI can be configured to act as a teaching partner rather than a solution generator."
+            }
+        };
+
+        // Modal functionality
+        const modal = document.getElementById('modal');
+        const modalBackdrop = document.getElementById('modalBackdrop');
+        const closeModalBtn = document.getElementById('closeModal');
+        const cards = document.querySelectorAll('#ideasGrid article');
+
+        function openModal(ideaNumber) {
+            const idea = ideasData[ideaNumber];
+            if (!idea) return;
+
+            document.getElementById('modalNumber').textContent = `#${idea.number}`;
+            document.getElementById('modalTools').textContent = idea.tools;
+            document.getElementById('modalTitle').textContent = idea.title;
+            document.getElementById('modalAvatar').innerHTML = `<span class="text-primary font-semibold">${idea.initials}</span>`;
+            document.getElementById('modalAuthor').textContent = idea.author;
+            document.getElementById('modalInstitution').textContent = idea.institution;
+            document.getElementById('modalRole').textContent = idea.role;
+            document.getElementById('modalContact').href = `mailto:${idea.contact}`;
+            document.getElementById('modalContext').textContent = idea.context;
+            document.getElementById('modalIdea').textContent = idea.idea;
+            document.getElementById('modalAim').textContent = idea.aim;
+            document.getElementById('modalInspiration').textContent = idea.inspiration;
+
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            modal.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        // Add click listeners to cards
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                const numberSpan = card.querySelector('span[class*="bg-primary"]');
+                const ideaNumber = numberSpan.textContent.replace('#', '');
+                openModal(ideaNumber);
+            });
+        });
+
+        closeModalBtn.addEventListener('click', closeModal);
+        modalBackdrop.addEventListener('click', closeModal);
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

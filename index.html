@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>101 AI Education Ideas | Premium Showcase</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#050505] text-white min-h-screen selection:bg-violet-500/30">
+
+    <!-- Background Glow Elements -->
+    <div class="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-violet-600/20 blur-[120px] rounded-full"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-600/20 blur-[120px] rounded-full">
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 glass-nav border-b border-white/10 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div
+                    class="w-10 h-10 bg-gradient-to-br from-violet-500 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-violet-500/20">
+                    <i data-lucide="sparkles" class="w-6 h-6 text-white"></i>
+                </div>
+                <span class="font-bold text-xl tracking-tight hidden sm:block">AI EDU <span
+                        class="text-violet-400">IDEAS</span></span>
+            </div>
+
+            <!-- Search Bar (Desktop) -->
+            <div class="hidden md:flex flex-1 max-w-md mx-8">
+                <div class="relative w-full">
+                    <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40"></i>
+                    <input type="text" id="searchInput" placeholder="Search 101 creative ideas..."
+                        class="w-full bg-white/5 border border-white/10 rounded-full py-2.5 pl-11 pr-4 focus:outline-none focus:ring-2 focus:ring-violet-500/40 transition-all text-sm">
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <div class="flex flex-col items-end mr-2 hidden sm:flex">
+                    <span class="text-xs text-white/40 uppercase tracking-widest font-semibold">Showing</span>
+                    <span id="ideaCounter" class="text-lg font-bold">101 IDEAS</span>
+                </div>
+                <button id="mobileSearchBtn" class="md:hidden p-2 text-white/60 hover:text-white transition-colors">
+                    <i data-lucide="search" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Search (Expanded) -->
+        <div id="mobileSearchContainer" class="hidden px-6 pb-4 md:hidden">
+            <div class="relative w-full">
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40"></i>
+                <input type="text" id="mobileSearchInput" placeholder="Search ideas..."
+                    class="w-full bg-white/5 border border-white/10 rounded-full py-3 pl-11 pr-4 focus:outline-none focus:ring-2 focus:ring-violet-500/40 transition-all text-sm">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="max-w-7xl mx-auto px-6 pt-16 pb-12 text-center relative">
+        <div
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-400 text-xs font-semibold uppercase tracking-wider mb-6 animate-fade-in">
+            <i data-lucide="zap" class="w-3.5 h-3.5"></i>
+            Interactive Prototype v2.0
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight animate-slide-up">
+            101 Creative Ways to <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-indigo-400 to-cyan-400">Use
+                AI in Education</span>
+        </h1>
+        <p class="max-w-2xl mx-auto text-white/60 text-lg md:text-xl leading-relaxed animate-slide-up delay-100">
+            A curated showcase of innovative approaches, experiments, and pedagogies from educators worldwide.
+        </p>
+    </header>
+
+    <!-- Filters Section -->
+    <section class="max-w-7xl mx-auto px-6 mb-12 relative z-10">
+        <!-- Category Tabs -->
+        <div class="flex items-center justify-center flex-wrap gap-2 mb-8" id="categoryTabs">
+            <button class="category-tab active" data-category="all">All Ideas</button>
+            <button class="category-tab" data-category="Assessment">Assessment & Feedback</button>
+            <button class="category-tab" data-category="Creative">Creative Arts</button>
+            <button class="category-tab" data-category="Literacy">Critical Literacy</button>
+            <button class="category-tab" data-category="Tech">Tech & Coding</button>
+            <button class="category-tab" data-category="Research">Research & Data</button>
+            <button class="category-tab" data-category="Teaching">Teaching Practice</button>
+        </div>
+
+        <!-- Tag Filter -->
+        <div class="flex flex-col gap-4">
+            <div class="flex items-center justify-between">
+                <h3 class="text-sm font-semibold uppercase tracking-wider text-white/40">Context Filters</h3>
+                <button id="clearFilters"
+                    class="text-xs text-violet-400 hover:text-violet-300 transition-colors hidden">Clear all
+                    filters</button>
+            </div>
+            <div id="tagContainer" class="flex flex-wrap gap-2">
+                <!-- Tags will be dynamically populated -->
+                <div class="h-8 w-24 bg-white/5 animate-pulse rounded-full"></div>
+                <div class="h-8 w-32 bg-white/5 animate-pulse rounded-full"></div>
+                <div class="h-8 w-20 bg-white/5 animate-pulse rounded-full"></div>
+                <div class="h-8 w-28 bg-white/5 animate-pulse rounded-full"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Grid -->
+    <main class="max-w-7xl mx-auto px-6 pb-20">
+        <div id="ideasGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Skeleton Cards -->
+            <div class="card-skeleton h-64 bg-white/5 rounded-3xl animate-pulse"></div>
+            <div class="card-skeleton h-64 bg-white/5 rounded-3xl animate-pulse"></div>
+            <div class="card-skeleton h-64 bg-white/5 rounded-3xl animate-pulse"></div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="hidden py-20 text-center">
+            <div class="w-20 h-20 bg-white/5 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-lucide="search-x" class="w-10 h-10 text-white/20"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">No ideas found</h3>
+            <p class="text-white/40">Try adjusting your filters or search keywords</p>
+        </div>
+    </main>
+
+    <!-- Sidebar / Detailed View Modal -->
+    <div id="modal" class="fixed inset-0 z-[100] hidden overflow-hidden">
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-xl" id="modalBackdrop"></div>
+        <div class="absolute right-0 top-0 h-full w-full md:w-[600px] lg:w-[700px] bg-[#0A0A0A] border-l border-white/10 shadow-2xl flex flex-col translate-x-full transition-transform duration-500 ease-out"
+            id="modalContent">
+
+            <div class="p-8 border-b border-white/10 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <span id="modalNumber"
+                        class="text-2xl font-black text-violet-500/50 italic tracking-tighter">#01</span>
+                    <h2 id="modalTitle" class="text-xl font-bold line-clamp-1">Title</h2>
+                </div>
+                <button id="closeModal" class="p-2 hover:bg-white/10 rounded-full transition-colors">
+                    <i data-lucide="x" class="w-6 h-6"></i>
+                </button>
+            </div>
+
+            <div class="flex-1 overflow-y-auto p-8 space-y-10">
+                <!-- Author Info -->
+                <div class="flex items-start gap-6 bg-white/5 p-6 rounded-3xl border border-white/10">
+                    <div id="modalAvatar"
+                        class="w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center text-2xl font-bold shadow-xl shadow-violet-500/10">
+                        CN
+                    </div>
+                    <div>
+                        <h3 id="modalAuthor" class="text-xl font-bold mb-1">Author Name</h3>
+                        <p id="modalInstitution" class="text-white/60 text-sm mb-2">Institution Name</p>
+                        <div class="flex items-center gap-3">
+                            <span id="modalRole"
+                                class="text-xs px-2 py-1 bg-white/10 rounded-md text-white/80">Role</span>
+                            <a id="modalContact" href="#"
+                                class="text-xs text-violet-400 hover:underline flex items-center gap-1">
+                                <i data-lucide="mail" class="w-3 h-3"></i> Contact Author
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tags -->
+                <div class="space-y-3">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-white/30">Context & Tools</h4>
+                    <div id="modalTags" class="flex flex-wrap gap-2"></div>
+                </div>
+
+                <!-- Sections -->
+                <div class="space-y-8">
+                    <section class="space-y-3">
+                        <div class="flex items-center gap-2 text-violet-400">
+                            <i data-lucide="lightbulb" class="w-5 h-5"></i>
+                            <h4 class="font-bold">The Idea</h4>
+                        </div>
+                        <p id="modalIdea" class="text-white/80 leading-relaxed text-lg font-light"></p>
+                    </section>
+
+                    <section class="space-y-3">
+                        <div class="flex items-center gap-2 text-indigo-400">
+                            <i data-lucide="target" class="w-5 h-5"></i>
+                            <h4 class="font-bold">What I Aim to Achieve</h4>
+                        </div>
+                        <p id="modalAim" class="text-white/60 leading-relaxed"></p>
+                    </section>
+
+                    <section class="space-y-3">
+                        <div class="flex items-center gap-2 text-cyan-400">
+                            <i data-lucide="sparkles" class="w-5 h-5"></i>
+                            <h4 class="font-bold">Inspiration Sources</h4>
+                        </div>
+                        <p id="modalInspiration" class="text-white/60 leading-relaxed italic"></p>
+                    </section>
+                </div>
+            </div>
+
+            <div
+                class="p-8 border-t border-white/10 bg-white/5 flex items-center justify-between text-xs text-white/40">
+                <span>101 Creative Ideas for Using AI in Education</span>
+                <span id="modalToolsUsed">Tools: ChatGPT</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="max-w-7xl mx-auto px-6 py-20 border-t border-white/10 text-center">
+        <p class="text-white/40 text-sm mb-4">Collection by various contributors from the global higher education
+            community.</p>
+        <div class="flex items-center justify-center gap-6">
+            <a href="#" class="text-white/20 hover:text-violet-400 transition-colors"><i data-lucide="github"
+                    class="w-5 h-5"></i></a>
+            <a href="#" class="text-white/20 hover:text-violet-400 transition-colors"><i data-lucide="twitter"
+                    class="w-5 h-5"></i></a>
+            <a href="#" class="text-white/20 hover:text-violet-400 transition-colors"><i data-lucide="globe"
+                    class="w-5 h-5"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+
+</html>
