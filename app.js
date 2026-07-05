@@ -48,11 +48,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryTabs = document.querySelectorAll('.category-tab');
     const clearFiltersBtn = document.getElementById('clearFilters');
     const emptyState = document.getElementById('emptyState');
+    const themeToggle = document.getElementById('themeToggle');
 
     // Modal Elements
     const modal = document.getElementById('modal');
     const modalBackdrop = document.getElementById('modalBackdrop');
     const closeModalBtn = document.getElementById('closeModal');
+
+    function applyTheme(theme) {
+        const isLight = theme === 'light';
+        document.body.classList.toggle('light-mode', isLight);
+
+        if (themeToggle) {
+            themeToggle.setAttribute('aria-pressed', String(isLight));
+            themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+        }
+    }
+
+    function getInitialTheme() {
+        const savedTheme = localStorage.getItem('aiEduIdeasTheme');
+        if (savedTheme === 'light' || savedTheme === 'dark') {
+            return savedTheme;
+        }
+
+        return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
+
+    applyTheme(getInitialTheme());
 
     /**
      * Normalizes context string into clean, short tags
@@ -214,19 +236,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Build context tag badges (max 2)
             const tagBadges = idea.contextTags.slice(0, 2).map(tag =>
-                `<span class="text-[9px] px-2 py-0.5 bg-violet-500/10 border border-violet-500/20 rounded-md text-violet-400/80">${tag}</span>`
+                `<span class="text-[11px] px-2.5 py-1 bg-violet-500/10 border border-violet-500/20 rounded-md text-violet-400/80 font-semibold">${tag}</span>`
             ).join('');
 
             // Build modality tag badges
             const modalityBadges = idea.modalityTags.map(tag => {
                 const style = MODALITY_STYLES[tag] || 'bg-white/5 border-white/10 text-white/40';
-                return `<span class="text-[8px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded-sm border ${style}">${tag}</span>`;
+                return `<span class="text-[10px] uppercase tracking-wider font-bold px-2 py-1 rounded-sm border ${style}">${tag}</span>`;
             }).join('');
 
             card.innerHTML = `
                 <div class="idea-card-inner">
                     <div class="flex items-center justify-between mb-4">
-                        <span class="text-xs font-black text-white/20 italic tracking-tighter group-hover:text-violet-500/50 transition-colors">#${idea.idea_number}</span>
+                        <span class="text-sm font-black text-white/20 italic tracking-tighter group-hover:text-violet-500/50 transition-colors">#${idea.idea_number}</span>
                         <div class="flex gap-1 items-center">
                             ${modalityBadges}
                         </div>
@@ -242,12 +264,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     <div class="mt-auto flex items-center justify-between pt-4 border-t border-white/5">
                         <div class="flex items-center gap-2">
-                            <div class="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center text-[10px] font-bold text-white/60 group-hover:bg-violet-500/20 group-hover:text-violet-400 transition-all">
+                            <div class="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center text-[11px] font-bold text-white/60 group-hover:bg-violet-500/20 group-hover:text-violet-400 transition-all">
                                 ${initials}
                             </div>
                             <div class="flex flex-col">
-                                <span class="text-xs font-semibold text-white/80">${idea.author || 'Anonymous'}</span>
-                                <span class="text-[10px] text-white/30 truncate max-w-[120px]">${idea.institution_organisation || ''}</span>
+                                <span class="text-sm font-semibold text-white/80">${idea.author || 'Anonymous'}</span>
+                                <span class="text-xs text-white/30 truncate max-w-[120px]">${idea.institution_organisation || ''}</span>
                             </div>
                         </div>
                         <i data-lucide="arrow-right" class="w-4 h-4 text-white/20 group-hover:text-violet-400 group-hover:translate-x-1 transition-all"></i>
@@ -284,14 +306,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Add Category tag
         const catBadge = document.createElement('span');
-        catBadge.className = 'px-3 py-1 bg-violet-500/20 border border-violet-500/30 text-violet-400 rounded-full text-xs font-bold uppercase tracking-wider';
+        catBadge.className = 'px-3 py-1.5 bg-violet-500/20 border border-violet-500/30 text-violet-400 rounded-full text-sm font-bold uppercase tracking-wider';
         catBadge.textContent = idea.category;
         tagsContainer.appendChild(catBadge);
 
         // Add Context tags
         idea.contextTags.forEach(tag => {
             const badge = document.createElement('span');
-            badge.className = 'px-3 py-1 bg-white/5 border border-white/10 text-white/60 rounded-full text-xs';
+            badge.className = 'px-3 py-1.5 bg-white/5 border border-white/10 text-white/60 rounded-full text-sm font-semibold';
             badge.textContent = tag;
             tagsContainer.appendChild(badge);
         });
@@ -300,7 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
         idea.modalityTags.forEach(tag => {
             const style = MODALITY_STYLES[tag] || 'bg-white/5 border-white/10 text-white/40';
             const badge = document.createElement('span');
-            badge.className = `px-3 py-1 ${style} rounded-full text-xs font-bold uppercase tracking-wider`;
+            badge.className = `px-3 py-1.5 ${style} rounded-full text-sm font-bold uppercase tracking-wider`;
             badge.textContent = tag;
             tagsContainer.appendChild(badge);
         });
@@ -361,6 +383,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     closeModalBtn.onclick = closeModal;
     modalBackdrop.onclick = closeModal;
+
+    themeToggle.addEventListener('click', () => {
+        const nextTheme = document.body.classList.contains('light-mode') ? 'dark' : 'light';
+        localStorage.setItem('aiEduIdeasTheme', nextTheme);
+        applyTheme(nextTheme);
+    });
 
     // Keyboard support
     document.addEventListener('keydown', (e) => {
