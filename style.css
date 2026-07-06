@@ -276,7 +276,7 @@ h6 {
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
-    left: 0.35rem;
+    left: calc(100% - 1.85rem);
     top: 50%;
     transform: translateY(-50%);
     border-radius: 9999px;
@@ -288,20 +288,31 @@ h6 {
 .theme-icon {
     position: relative;
     z-index: 1;
+    color: rgba(255, 255, 255, 0.44);
+    transition: color 220ms ease;
 }
 
 .theme-icon-dark {
     margin-left: auto;
+    color: white;
 }
 
 body.light-mode .theme-toggle-track {
-    left: calc(100% - 1.85rem);
+    left: 0.35rem;
 }
 
 body.light-mode .theme-toggle {
     background: rgba(226, 232, 240, 0.86);
     border-color: rgba(99, 102, 241, 0.24);
     color: rgba(30, 41, 59, 0.76);
+}
+
+body.light-mode .theme-icon-light {
+    color: white;
+}
+
+body.light-mode .theme-icon-dark {
+    color: rgba(30, 41, 59, 0.5);
 }
 
 /* Light Mode */
